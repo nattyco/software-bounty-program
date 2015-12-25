@@ -34,6 +34,6 @@ We are running a bounty program to complete projected functionality as soon as p
 Below you can see a table with all current bounties available and their status. 
 
 | Project | Description | Target Month | Bounty Amount [USD] | To be paid in | Status | Assiged Team | Starded | Finished | Amount Awarded [USD] |
-|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--Shares | -:|---:|
+|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
 |CHT Platform MVP | Chat Platform | January | ary | 10,000 | bitDubai Shares | Assigned | | 22 Dec 2015 | | |
 |DPN | Device Private Network | January | 25,000 | bitDubai Shares | Not Assigned | | | | |
