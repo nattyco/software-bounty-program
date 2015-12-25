@@ -41,7 +41,7 @@ Below you can see a table with all current bounties available and their status.
 |Chat Platform| Jan | 5,000 | bitDubai Shares | Assigned | Gabriel José Miguel | Dec 2015 | | |
 |Crypto Broker Platform| Jan | 15,000 | bitDubai Shares | Assigned | Nelson & Cía | Oct 2015 | | |
 |Digital Assets Platform| Jan | 10,000 | bitDubai Shares | Assigned | Thunder | Aug 2015 | | |
-|Wallet Production Distribution| Jan | 5,000 | bitDubai Shares | Assigned | Thunder | Aug 2015 | | |
+|Wallet Production Distribution| Jan | 10,000 | bitDubai Shares | Assigned | Thunder | Aug 2015 | | |
 |Loss Protected Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
 |Discount Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
 |P2P Network v2| Jan | 15,000 | bitDubai Shares | Assigned | Disruptors | Dec 2015 | | |
