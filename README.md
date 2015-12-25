@@ -35,8 +35,12 @@ Below you can see a table with all current bounties available and their status.
 
 | Project | Target Month | Bounty Amount [USD] | To be paid in | Status | Assiged Team | Starded | Finished | Amount Awarded [USD] |
 |:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
-|Crypto Currency Platform| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Aug 2015 | | |
+|Crypto Currency Platform| Dec 2015 | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Aug 2015 | | |
 |Chat Platform| Jan | 5,000 | bitDubai Shares | Assigned | <no name> | Dec 2015 | | |
 |Crypto Broker Platform| Jan | 15,000 | bitDubai Shares | Assigned | <no name> | Oct 2015 | | |
 |Digital Assets Platform| Jan | 5,000 | bitDubai Shares | Assigned | <no name> | Aug 2015 | | |
 |Device Private Network| Feb | 25,000 | bitDubai Shares | Not Assigned | | | | |
+|Loss Protected Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
+|Discount Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
+
+
