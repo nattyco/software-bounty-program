@@ -16,6 +16,8 @@ We are running a bounty program to complete projected functionality as soon as p
 1. If you miss the target month for any reason you can still be awarded half of the bounty if you reach production the following month.
 2. Your team has to mantain the code implemented during the first 3 months on production. 
 3. You wil be awarded a 10% of the bounty received for each of these 3 months.
+4. The distribution of the bounty between the team members is free. It is up to the team to decide how to distribute the bounty between them or other people from other teams which helped.
+5. Taking the functionality into production means passing all controls, checks and approvals that might be in place by the time the code is implemented. This approval procedures might or might not be in place at present time.
 
 ## Reference 
 
