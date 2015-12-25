@@ -4,16 +4,36 @@
 
 We are running a bounty program to complete projected functionality as soon as possible. Currently bounties are not paid in cash, but in shares of the project. This is one of the ways we use to distribute ownership of the project with whoever adds value to it. Following, you will find a simple set of rules that governs the bounty program:
 
+## Procedure
+
+1. Grabb a Team and apply for one of the project listed where it's status is _Not Assigned_
+2. Create an Issue in this REPO tagging the @bounty-program-team asking to assign one of the available projects to your team.
+3. Someone on this team will evaluate your chances and may assing or not the project to your team. In any case a complete explanation of the reasons why they do or don't assing it will be given to you. Everything will happen in the disscussion on the issue created.
+4. The exact scope of the project is defined once the project is assigned to a team. It is agreed between the team members and the @bounty-program-team.
+
 ## Rules
 
+1. If you miss the target month for any reason you can still be awarded half of the bounty if you reach production the following month.
+2. Your team has to mantain the code implemented during the first 3 months on production. 
+3. You wil be awarded a 10% of the bounty received for each of these 3 months.
 
+## Reference 
 
+**Target Month** : Is the month where this functionality should reach production. It is considered to hit the target if it reach production any day of that month.
+
+**Bounty Amount** : Is the amount to be awarded if the desired functionality reaches production on the _Target Month_. 
+
+**To be paid in** : Is the way we intend to pay for this bounty. It can be in bitDubai shares, Fermat tokens, bitcoins.
+
+**Status** : Is the status of the bounty. It can be _Assigned_ if some team is already working on it, or _Not Assigned_ if nobody is working on it yet.
+
+**Amount Awarded** : As per the bounty program rules, the amount awarded may vary from the _Bounty Amount_. Here we show how much it was finally awarded.
 
 ## 2016 Bounties
 
 Below you can see a table with all current bounties available and their status. 
 
-| Project | Description | Target Month | Bounty Amount [USD] | Status | Assiged Team | Starded | Finished | Amount Awarded [USD] |
-|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|---:|
-|CHT Platform MVP | Chat Platform | January | 10,000 | Assigned | | 22 Dec 2015 | | |
-|DPN | Device Private Network | January | 25,000 | Not Assigned | | | | |
+| Project | Description | Target Month | Bounty Amount [USD] | To be paid in | Status | Assiged Team | Starded | Finished | Amount Awarded [USD] |
+|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--Shares | -:|---:|
+|CHT Platform MVP | Chat Platform | January | ary | 10,000 | bitDubai Shares | Assigned | | 22 Dec 2015 | | |
+|DPN | Device Private Network | January | 25,000 | bitDubai Shares | Not Assigned | | | | |
