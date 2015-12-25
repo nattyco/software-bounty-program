@@ -19,6 +19,7 @@ We are running a bounty program to complete projected functionality as soon as p
 4. The distribution of the bounty between the team members is free. It is up to the team to decide how to distribute the bounty between them or other people from other teams which helped.
 5. Taking the functionality into production means passing all controls, checks and approvals that might be in place by the time the code is implemented. This approval procedures might or might not be in place at present time.
 6. The conditions of bounties that are not yet _Assigned_ might be changed at anytime by the @bounty-program-team. Once assigned, the conditions will stay fixed.
+7. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a too slow progress, it my cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
 
 ## Reference 
 
