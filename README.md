@@ -48,5 +48,7 @@ Below you can see a table with all current bounties available and their status.
 |Fermat ORG P2P| Jan | 15,000 | bitDubai Shares | Assigned | Miguel Luis | Dec 2015 | | |
 |Fermat ORG Editable| Jan | 10,000 | bitDubai Shares | Assigned | Miguel Luis | Dec 2015 | | |
 |Device Private Network| Feb | 25,000 | bitDubai Shares | Not Assigned | | | | |
-|Niche APPs| Feb | 15,000 | bitDubai Shares | Not Assigned | | | | |
+|Crypto Distribution Network| Feb | 25,000 | bitDubai Shares | Not Assigned | | | | |
+|Marketing Platform| Feb | 25,000 | bitDubai Shares | Not Assigned | | | | |
+|Niche Wallets APPs| Feb | 20,000 | bitDubai Shares | Not Assigned | | | | |
 
