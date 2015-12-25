@@ -2,7 +2,7 @@
 
 # Fermat Bounty Program
 
-We are running a bounty program to complete projected functionality as soon as possible. Currently bounties are not paid in cash, but in shares of the project. This is one of the ways we use to distribute ownership of the project with whoever adds value to it. Following, you will find a simple set of rules that governs the bounty program:
+We are running a bounty program to complete projected functionality as soon as possible. Currently bounties are not paid in cash, but in bitDubai shares. This is one of the ways we use to distribute ownership of the project with whoever adds value to it. Following, you will find a simple set of rules that governs the bounty program:
 
 ## Procedure
 
