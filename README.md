@@ -6,7 +6,7 @@ We are running a bounty program to complete projected functionality as soon as p
 
 ## Procedure
 
-1. Grabb a Team and apply for one of the project listed where it's status is _Not Assigned_
+1. Grabb a Team and apply for one of the projects listed where it's status is _Not Assigned_ (if you are already working at bitDubai you can only participate on the projects you are assigned to, if it happens that that project has a bounty then you are automatically participating on the bounty-program together with the team that is working on that.)
 2. Create an Issue in this REPO tagging the @bounty-program-team asking to assign one of the available projects to your team.
 3. Someone on this team will evaluate your chances and may assing or not the project to your team. In any case a complete explanation of the reasons why they do or don't assing it will be given to you. Everything will happen in the disscussion on the issue created.
 4. The exact scope of the project is defined once the project is assigned to a team. It is agreed between the team members and the @bounty-program-team.
