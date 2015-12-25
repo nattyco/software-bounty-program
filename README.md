@@ -37,13 +37,16 @@ Below you can see a table with all current bounties available and their status.
 
 | Project | Target Month | Bounty Amount [USD] | To be paid in | Status | Assiged Team | Starded | Finished | Amount Awarded [USD] |
 |:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
-|Crypto Currency Platform| Dec 2015 | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Aug 2015 | | |
+|Crypto Currency Platform| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Aug 2015 | | |
 |Chat Platform| Jan | 5,000 | bitDubai Shares | Assigned | Gabriel José Miguel | Dec 2015 | | |
 |Crypto Broker Platform| Jan | 15,000 | bitDubai Shares | Assigned | Nelson & Cía | Oct 2015 | | |
-|Digital Assets Platform| Jan | 5,000 | bitDubai Shares | Assigned | Thunder | Aug 2015 | | |
+|Digital Assets Platform| Jan | 10,000 | bitDubai Shares | Assigned | Thunder | Aug 2015 | | |
 |Wallet Production Distribution| Jan | 5,000 | bitDubai Shares | Assigned | Thunder | Aug 2015 | | |
 |Loss Protected Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
 |Discount Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
+|P2P Network v2| Jan | 15,000 | bitDubai Shares | Assigned | Disruptors | Dec 2015 | | |
+|Fermat ORG P2P| Jan | 15,000 | bitDubai Shares | Assigned | Miguel Luis | Dec 2015 | | |
+|Fermat ORG Editable| Jan | 10,000 | bitDubai Shares | Assigned | Miguel Luis | Dec 2015 | | |
 |Device Private Network| Feb | 25,000 | bitDubai Shares | Not Assigned | | | | |
 |Niche APPs| Feb | 15,000 | bitDubai Shares | Not Assigned | | | | |
 
