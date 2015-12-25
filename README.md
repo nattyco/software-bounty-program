@@ -35,5 +35,5 @@ Below you can see a table with all current bounties available and their status.
 
 | Project | Target Month | Bounty Amount [USD] | To be paid in | Status | Assiged Team | Starded | Finished | Amount Awarded [USD] |
 |:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
-|CHT - Chat Platform MVP | January | ary | 10,000 | bitDubai Shares | Assigned | | 22 Dec 2015 | | |
-|DPN - Device Private Network MVP | January | 25,000 | bitDubai Shares | Not Assigned | | | | |
+|Chat Platform MVP | January | ary | 10,000 | bitDubai Shares | Assigned | | 22 Dec 2015 | | |
+|Device Private Network MVP | January | 25,000 | bitDubai Shares | Not Assigned | | | | |
