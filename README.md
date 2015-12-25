@@ -21,18 +21,6 @@ We are running a bounty program to complete projected functionality as soon as p
 6. The conditions of bounties that are not yet _Assigned_ might be changed at anytime by the @bounty-program-team. Once assigned, the conditions will stay fixed.
 7. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a too slow progress, it my cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
 
-## Reference 
-
-**Target Month** : Is the month where this functionality should reach production. It is considered to hit the target if it reach production any day of that month.
-
-**Bounty Amount** : Is the amount to be awarded if the desired functionality reaches production on the _Target Month_. 
-
-**To be paid in** : Is the way we intend to pay for this bounty. It can be in bitDubai shares, Fermat tokens, bitcoins.
-
-**Status** : Is the status of the bounty. It can be _Assigned_ if some team is already working on it, or _Not Assigned_ if nobody is working on it yet.
-
-**Amount Awarded** : As per the bounty program rules, the amount awarded may vary from the _Bounty Amount_. Here we show how much it was finally awarded.
-
 ## 2016 Bounties
 
 Below you can see a table with all current bounties available and their status. 
@@ -54,3 +42,15 @@ Below you can see a table with all current bounties available and their status.
 |Marketing Platform| Feb | 25,000 | bitDubai Shares | Not Assigned | | | | |
 |Niche Wallets APPs| Feb | 15,000 | bitDubai Shares | Not Assigned | | | | |
 
+
+## Reference 
+
+**Target Month** : Is the month where this functionality should reach production. It is considered to hit the target if it reach production any day of that month.
+
+**Bounty Amount** : Is the amount to be awarded if the desired functionality reaches production on the _Target Month_. 
+
+**To be paid in** : Is the way we intend to pay for this bounty. It can be in bitDubai shares, Fermat tokens, bitcoins.
+
+**Status** : Is the status of the bounty. It can be _Assigned_ if some team is already working on it, or _Not Assigned_ if nobody is working on it yet.
+
+**Amount Awarded** : As per the bounty program rules, the amount awarded may vary from the _Bounty Amount_. Here we show how much it was finally awarded.
