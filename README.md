@@ -35,13 +35,14 @@ Below you can see a table with all current bounties available and their status.
 |Loss Protected Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
 |Discount Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
 |P2P Network v2| Jan | 15,000 | bitDubai Shares | Assigned | Disruptors | Dec 2015 | | |
-|Fermat ORG P2P| Jan | 15,000 | bitDubai Shares | Assigned | Miguel Luis | Dec 2015 | | |
-|Fermat ORG Editable| Jan | 10,000 | bitDubai Shares | Assigned | Miguel Luis | Dec 2015 | | |
+|Fermat ORG P2P| Jan | 15,000 | bitDubai Shares | Assigned | Miguel Luis Germán | Dec 2015 | | |
+|Fermat ORG Editable| Jan | 10,000 | bitDubai Shares | Assigned | Miguel Luis Germán | Dec 2015 | | |
 |Device Private Network| Feb | 30,000 | bitDubai Shares | Not Assigned | | | | |
 |Crypto Distribution Network| Feb | 25,000 | bitDubai Shares | Not Assigned | | | | |
 |Marketing Platform| Feb | 20,000 | bitDubai Shares | Not Assigned | | | | |
 |Niche Wallets APPs| Feb | 15,000 | bitDubai Shares | Not Assigned | | | | |
 |Branded Wallets APPs| Mar | 25,000 | bitDubai Shares | Not Assigned | | | | |
+|Multi-Sig Vault| Mar | 20,000 | bitDubai Shares | Not Assigned | | | | |
 
 ## Reference 
 
