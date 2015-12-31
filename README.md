@@ -46,6 +46,7 @@ Below you can see a table with all current bounties available and their status.
 |Digital Assets Secondary Market|  | 20,000 | bitDubai Shares | Not Assigned | | | | |
 |Fermat Blockchain|  | 30,000 | bitDubai Shares | Not Assigned | | | | |
 |Fermat P2P v3 |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
+|Fermat Companies |  | 40,000 | bitDubai Shares | Not Assigned | | | | |
 
 ## Reference 
 
