@@ -42,11 +42,14 @@ Below you can see a table with all current bounties available and their status.
 |Marketing Platform| Feb | 20,000 | bitDubai Shares | Not Assigned | | | | |
 |Niche Wallets APPs| Feb | 15,000 | bitDubai Shares | Not Assigned | | | | |
 |Branded Wallets APPs| Mar | 25,000 | bitDubai Shares | Not Assigned | | | | |
-|Multi-Sig Vault| Mar | 20,000 | bitDubai Shares | Not Assigned | | | | |
-|Digital Assets Secondary Market|  | 20,000 | bitDubai Shares | Not Assigned | | | | |
+|Multi-Sig Vault| Mar | 30,000 | bitDubai Shares | Not Assigned | | | | |
+|Digital Assets Secondary Market|  | 30,000 | bitDubai Shares | Not Assigned | | | | |
 |Fermat Blockchain|  | 30,000 | bitDubai Shares | Not Assigned | | | | |
 |Fermat P2P v3 |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
 |Fermat Companies |  | 40,000 | bitDubai Shares | Not Assigned | | | | |
+|Distributed Reputation System |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
+
+Please Note: Target month and bounty offered may change while their status is _Not Assigned_
 
 ## Reference 
 
