@@ -49,6 +49,7 @@ Below you can see a table with all current bounties available and their status.
 |Fermat Companies |  | 40,000 | bitDubai Shares | Not Assigned | | | | |
 |Distributed Reputation System |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
 |Integrated Feedback |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
+|Customer Support |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
 
 Please Note: Target month and bounty offered may change while their status is _Not Assigned_
 
