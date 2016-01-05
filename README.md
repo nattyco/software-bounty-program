@@ -17,9 +17,12 @@ We are running a bounty program to complete projected functionality as soon as p
 2. Your team has to maintain the code implemented during the first 3 months on production. 
 3. You wil be awarded a 10% of the bounty received for each of these 3 months.
 4. The distribution of the bounty between the team members is free. It is up to the team to decide how to distribute the bounty between them or other people from other teams which helped.
-5. Taking the functionality into production means passing all controls, checks and approvals that might be in place by the time the code is implemented. This approval procedures might or might not be in place at present time.
-6. The conditions of bounties that are not yet _Assigned_ might be changed at anytime by the @bounty-program-team. Once assigned, the conditions will stay fixed.
-7. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a too slow progress, it my cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
+5. Team leaders can make agreements for shares of the possible bounty with other team leaders to help them with the project. In fact this is expected to happend with graphic designers, UX designers, copywriters and others, in order to secure there commitment to the project for certain dates.
+6. Taking the functionality into production means passing all controls, checks and approvals that might be in place by the time the code is implemented. This approval procedures might or might not be in place at present time.
+7. The conditions of bounties that are not yet _Assigned_ might be changed at anytime by the @bounty-program-team. Once assigned, the conditions will stay fixed.
+8. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a too slow progress, it my cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
+9. Some projects might require a colaterall in shares of the team meambers assigned to the project in order to get the project. If they fail to win the bounty they will have to return the shares in collateral. In this cases a _contract_ will be added to the _contracts_ folder in this repo with the agreement. 
+
 
 ## 2016 Bounties
 
