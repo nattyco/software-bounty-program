@@ -2,7 +2,7 @@
 
 # Fermat Bounty Program
 
-We are running a bounty program to complete the projected functionality as soon as possible. Currently bounties are not paid in cash, but in bitDubai shares. This is one of the ways we use to distribute ownership of the project with whoever adds value to it. 
+We are running a bounty program to complete the projected functionality as soon as possible. Currently bounties are not paid in cash, but in Fermat tokens. This is one of the ways we use to distribute ownership of the project with whoever adds value to it. 
 
 ## Procedure
 
@@ -17,11 +17,11 @@ We are running a bounty program to complete the projected functionality as soon 
 2. Your team has to maintain the code implemented during the first 3 months of production. 
 3. You wil be awarded a 10% of the bounty received for each of these 3 months.
 4. The distribution of the bounty between the team members is free. It is up to the team to decide how to distribute the bounty between them or other people from other teams that helped.
-5. Team leaders can make agreements for shares of the possible bounty with other team leaders to help them with the project. In fact this is expected to happend with graphic designers, UX designers, copywriters and others, in order to secure their commitment to the project for certain dates.
+5. Team leaders can make agreements for tokens of the possible bounty with other team leaders to help them with the project. In fact this is expected to happend with graphic designers, UX designers, copywriters and others, in order to secure their commitment to the project for certain dates.
 6. Taking the functionality into production means passing all controls, checks and approvals that might be in place by the time the code is implemented. This approval procedures might or might not be in place at the present time.
 7. The conditions of bounties that are not yet _Assigned_ might be changed at anytime by the @bounty-program-team. Once assigned, the conditions will stay fixed.
 8. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a progress too slow, it might cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
-9. Some projects might require a collateral in shares of the team meambers assigned to the project in order to get the project. If they fail to win the bounty they will have to return the shares in collateral. In this cases a _contract_ will be added to the _contracts_ folder in this repo along with the agreement. 
+9. Some projects might require a collateral in tokens of the team meambers assigned to the project in order to get the project. If they fail to win the bounty they will have to return the tokens in collateral. In this cases a _contract_ will be added to the _contracts_ folder in this repo along with the agreement. 
 
 
 ## 2016 Bounties
@@ -30,32 +30,31 @@ Below you can see a table with all current bounties available and their status.
 
 | Project | Target Month | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Starded | Finished | Amount Awarded [USD] |
 |:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
-|Crypto Currency Platform| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Aug 2015 | | |
-|Chat Platform| Jan | 5,000 | bitDubai Shares | Assigned | Gabriel José Miguel | Dec 2015 | | |
-|Crypto Broker Platform| Jan | 15,000 | bitDubai Shares | Assigned | Nelson & Cía | Oct 2015 | | |
-|Digital Assets Platform| Jan | 10,000 | bitDubai Shares | Assigned | Thunder | Aug 2015 | | |
-|Wallet Production Distribution| Jan | 10,000 | bitDubai Shares | Assigned | Thunder | Aug 2015 | | |
-|Loss Protected Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
-|Discount Wallet| Jan | 5,000 | bitDubai Shares | Assigned | Coin Diggers | Ene 2015 | | |
-|P2P Network v2| Jan | 15,000 | bitDubai Shares | Assigned | Disruptors | Dec 2015 | | |
-|Fermat ORG P2P| Jan | 15,000 | bitDubai Shares | Assigned | Miguel Luis Germán | Dec 2015 | | |
-|Fermat ORG Editable| Jan | 10,000 | bitDubai Shares | Assigned | Miguel Luis Germán | Dec 2015 | | |
-|Device Private Network| Feb | 30,000 | bitDubai Shares | Not Assigned | | | | |
-|Crypto Distribution Network| Feb | 25,000 | bitDubai Shares | Not Assigned | | | | |
-|Digital Assets Combined| Feb | 15,000 | bitDubai Shares | Not Assigned | | | | |
-|Marketing Platform| Feb | 20,000 | bitDubai Shares | Not Assigned | | | | |
-|Niche Wallets APPs| Feb | 15,000 | bitDubai Shares | Not Assigned | | | | |
-|Branded Wallets APPs| Mar | 25,000 | bitDubai Shares | Not Assigned | | | | |
-|Multi-Sig Vault| Mar | 30,000 | bitDubai Shares | Not Assigned | | | | |
-|Digital Assets Secondary Market|  | 30,000 | bitDubai Shares | Not Assigned | | | | |
-|Fermat Blockchain|  | 30,000 | bitDubai Shares | Not Assigned | | | | |
-|Fermat P2P v3 |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
-|Fermat Companies |  | 40,000 | bitDubai Shares | Not Assigned | | | | |
-|Distributed Reputation System |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
-|Integrated Feedback |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
-|Customer Support |  | 20,000 | bitDubai Shares | Not Assigned | | | | |
-|Fermat Multi OS |  | 30,000 | bitDubai Shares | Not Assigned | | | | |
-|Fermat for iOS |  | 30,000 | bitDubai Shares | Not Assigned | | | | |
+|Crypto Currency Platform| Jan | 5,000 | Fermat Tokens | Gabriel José Miguel | Dec 2015 | | |
+|Crypto Broker Platform| Jan | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | |
+|Digital Assets Platform| Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | |
+|Wallet Production Distribution| Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | |
+|Loss Protected Wallet| Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Ene 2015 | | |
+|Discount Wallet| Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Ene 2015 | | |
+|P2P Network v2| Jan | 15,000 | Fermat Tokens | Assigned | Disruptors | Dec 2015 | | |
+|Fermat ORG P2P| Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis Germán | Dec 2015 | | |
+|Fermat ORG Editable| Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis Germán | Dec 2015 | | |
+|Device Private Network| Feb | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|Crypto Distribution Network| Feb | 25,000 | Fermat Tokens | Not Assigned | | | | |
+|Digital Assets Combined| Feb | 15,000 | Fermat Tokens | Not Assigned | | | | |
+|Marketing Platform| Feb | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|Niche Wallets APPs| Feb | 15,000 | Fermat Tokens | Not Assigned | | | | |
+|Branded Wallets APPs| Mar | 25,000 | Fermat Tokens | Not Assigned | | | | |
+|Multi-Sig Vault| Mar | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|Digital Assets Secondary Market|  | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|Fermat Blockchain|  | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|Fermat P2P v3 |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|Fermat Companies |  | 40,000 | Fermat Tokens | Not Assigned | | | | |
+|Distributed Reputation System |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|Integrated Feedback |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|Customer Support |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|Fermat Multi OS |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|Fermat for iOS |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
 
 
 Please Note: Target month and bounty offer may change while their status is _Not Assigned_
@@ -66,7 +65,7 @@ Please Note: Target month and bounty offer may change while their status is _Not
 
 **Bounty Amount** : Is the amount to be awarded if the desired functionality reaches production on the _Target Month_. 
 
-**To be paid in** : Is the way we intend to pay for this bounty. It can be in bitDubai shares, Fermat tokens or bitcoins.
+**To be paid in** : Is the way we intend to pay for this bounty. It can be in Fermat tokens or bitcoins.
 
 **Status** : Is the status of the bounty. It can be _Assigned_ if some team is already working on it, or _Not Assigned_ if nobody is working on it yet.
 
