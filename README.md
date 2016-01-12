@@ -55,6 +55,7 @@ Below you can see a table with all current bounties available and their status.
 |Customer Support |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
 |Fermat Multi OS |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
 |Fermat for iOS |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|Fermat Wallet & Exchange |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
 
 
 Please Note: Target month and bounty offer may change while their status is _Not Assigned_
