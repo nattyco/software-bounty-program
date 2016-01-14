@@ -53,6 +53,7 @@ Below you can see a table with all current bounties available and their status.
 |Distributed Reputation System |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
 |Integrated Feedback |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
 |Customer Support |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|Fermat APPs Licensing |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
 |Fermat Multi OS |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
 |Fermat for iOS |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
 |Fermats Wallet & Exchange |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
