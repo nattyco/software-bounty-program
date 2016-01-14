@@ -28,35 +28,35 @@ We are running a bounty program to complete the projected functionality as soon 
 
 Below you can see a table with all current bounties available and their status. 
 
-| # | Project | Target Month | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Starded | Finished | Amount Awarded [USD] |
-|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
-|1|Crypto Currency Platform| Jan | 5,000 | Fermat Tokens | Gabriel José Miguel | Dec 2015 | | |
-|2|Crypto Broker Platform| Jan | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | |
-|3|Digital Assets Platform| Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | |
-|4|Wallet Production Distribution| Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | |
-|5|Loss Protected Wallet| Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Ene 2015 | | |
-|6|Discount Wallet| Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Ene 2015 | | |
-|7|P2P Network v2| Jan | 15,000 | Fermat Tokens | Assigned | Disruptors | Dec 2015 | | |
-|8|Fermat ORG P2P| Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis Germán | Dec 2015 | | |
-|9|Fermat ORG Editable| Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis Germán | Dec 2015 | | |
-|10|Device Private Network| Feb | 30,000 | Fermat Tokens | Not Assigned | | | | |
-|11|Crypto Distribution Network| Feb | 25,000 | Fermat Tokens | Not Assigned | | | | |
-|12|Digital Assets Combined| Feb | 15,000 | Fermat Tokens | Not Assigned | | | | |
-|13|Marketing Platform| Feb | 20,000 | Fermat Tokens | Not Assigned | | | | |
-|14|Niche Wallets APPs| Feb | 15,000 | Fermat Tokens | Not Assigned | | | | |
-|15|Branded Wallets APPs| Mar | 25,000 | Fermat Tokens | Not Assigned | | | | |
-|16|Multi-Sig Vault| Mar | 30,000 | Fermat Tokens | Not Assigned | | | | |
-|17|Digital Assets Secondary Market|  | 30,000 | Fermat Tokens | Not Assigned | | | | |
-|18|Fermat Blockchain|  | 30,000 | Fermat Tokens | Not Assigned | | | | |
-|19|Fermat P2P v3 |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
-|20|Fermat Companies |  | 40,000 | Fermat Tokens | Not Assigned | | | | |
-|21|Distributed Reputation System |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
-|22|Integrated Feedback |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
-|23|Customer Support |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
-|24|Fermat APPs Licensing |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
-|25|Fermat Multi OS |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
-|26|Fermat for iOS |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
-|27|Fermats Wallet & Exchange |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
+| # | Project | Prev|  Target Month | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Starded | Finished | Amount Awarded [USD] |
+|:---:|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
+|1|Crypto Currency Platform|  | Jan | 5,000 | Fermat Tokens | Gabriel José Miguel | Dec 2015 | | |
+|2|Crypto Broker Platform| | Jan | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | |
+|3|Digital Assets Platform| | Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | |
+|4|Wallet Production Distribution| | Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | |
+|5|Loss Protected Wallet| 1 | Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Ene 2015 | | |
+|6|Discount Wallet| 1 | Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Ene 2015 | | |
+|7|P2P Network v2| | Jan | 15,000 | Fermat Tokens | Assigned | Disruptors | Dec 2015 | | |
+|8|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis Germán | Dec 2015 | | |
+|9|Fermat ORG Editable| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis Germán | Dec 2015 | | |
+|10|Device Private Network| | Feb | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|11|Crypto Distribution Network| 2 | Feb | 25,000 | Fermat Tokens | Not Assigned | | | | |
+|12|Digital Assets Combined| 3 | Feb | 15,000 | Fermat Tokens | Not Assigned | | | | |
+|13|Marketing Platform| 3 | Feb | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|14|Niche Wallets APPs| | Feb | 15,000 | Fermat Tokens | Not Assigned | | | | |
+|15|Branded Wallets APPs| 14 | Mar | 25,000 | Fermat Tokens | Not Assigned | | | | |
+|16|Multi-Sig Vault| 10 | Mar | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|17|Digital Assets Secondary Market| 12 |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|18|Fermat Blockchain| |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|19|Fermat P2P v3 | 7 | | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|20|Fermat Companies |  |  | 40,000 | Fermat Tokens | Not Assigned | | | | |
+|21|Distributed Reputation System |  |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|22|Integrated Feedback |  |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|23|Customer Support |  |  | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|24|Fermat APPs Licensing | 15 | | 20,000 | Fermat Tokens | Not Assigned | | | | |
+|25|Fermat Multi OS | | | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|26|Fermat for iOS | |  | 30,000 | Fermat Tokens | Not Assigned | | | | |
+|27|Fermats Wallet & Exchange | 18 | | 30,000 | Fermat Tokens | Not Assigned | | | | |
 
 
 Please Note: Target month and bounty offer may change while their status is _Not Assigned_
