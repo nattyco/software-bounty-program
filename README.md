@@ -28,7 +28,7 @@ We are running a bounty program to complete the projected functionality as soon 
 
 Below you can see a table with all current bounties available and their status. 
 
-| # | Project |P.|  Target Month | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Starded | Finished | Amount Awarded [USD] |
+| # | Project |D|  Target Month | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Starded | Finished | Amount Awarded [USD] |
 |:---:|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
 |1|Crypto Currency Platform|  | Jan | 5,000 | Fermat Tokens | Gabriel José Miguel | Dec 2015 | | |
 |2|Crypto Broker Platform| | Jan | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | |
@@ -62,6 +62,8 @@ Below you can see a table with all current bounties available and their status.
 Please Note: Target month and bounty offer may change while their status is _Not Assigned_
 
 ## Reference 
+
+**D** : Means _Depends on_. The project listed dependes on other project to be completed in order to be started. 
 
 **Target Month** : Is the month where this functionality should reach production. It is considered to hit the target if it reaches production any day of that month.
 
