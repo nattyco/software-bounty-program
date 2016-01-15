@@ -38,7 +38,7 @@ Below you can see a table with all current bounties available and their status.
 |6|Discount Wallet| 1 | Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Ene 2015 | | |
 |7|P2P Network v2| | Jan | 15,000 | Fermat Tokens | Assigned | Disruptors | Dec 2015 | | |
 |8|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis Germán | Dec 2015 | | |
-|9|Fermat ORG Editable| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis Germán | Dec 2015 | | |
+|9|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis Germán | Dec 2015 | | |
 |10|Device Private Network| | Feb | 30,000 | Fermat Tokens | Not Assigned | | | | |
 |11|Crypto Distribution Network| 2 | Feb | 25,000 | Fermat Tokens | Not Assigned | | | | |
 |12|Digital Assets Combined| 3 | Feb | 15,000 | Fermat Tokens | Not Assigned | | | | |
