@@ -4,6 +4,29 @@
 
 We are running a bounty program to complete the projected functionality as soon as possible. Currently bounties are not paid in cash, but in Fermat tokens. This is one of the ways we use to distribute ownership of the project with whoever adds value to it. 
 
+## License Agreement (read this first)
+Anyone who adds value to the Project in the form of a Contributor according to this Contribution Program, needs to sign up a Contribution License Agreement as the first step to become part of the project. To do that, you only need to do the following: +
+. In this repo you will find the Contributor License Agreement template file that you need to sign up for the competition.[here](https://github.com/bitDubai/cotribution-program/blob/master/Contributor-License-Agreement.md)
+. Copy all of it's content to the clipboard, and go to the folder "license-agreements", create a new file starting with your name and the name of the template file, paste the content of the clipboard there and save it.
+
+<br>
+##### Example: 
+
+```shell
+Juan-Perez-Contributor-License-Agreement.md
+```
+
+<br>
+##### Be Aware! : 
+
+| Note:        | By adding this file to this repo you are signing it with your github account and agreeing on the terms and conditions mentioned there.            | 
+| :-------------: |:-------------:| -----:|
+
+<br>
+##### After Signing: 
+
+You are done! Now you are signed up and can follow the Bounty program procedure below.
+
 ## Procedure
 
 1. Grab a Team and apply for one of the projects listed whose status reads as _Not Assigned_ (if you are already a member of the bitDubai network you can only participate on the projects you are assigned to, if it happens that that project has a bounty then you are automatically participating on the bounty-program together with the team that is working on that.)
