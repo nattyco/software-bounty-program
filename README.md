@@ -5,10 +5,16 @@
 We are running a bounty program to complete the projected functionality as soon as possible. Currently bounties are not paid in cash, but in Fermat tokens. This is one of the ways we use to distribute ownership of the project with whoever adds value to it. 
 
 ## License Agreement (read this first)
-Anyone who adds value to the Project in the form of a Contributor according to this Contribution Program, needs to sign up a Contribution License Agreement as the first step to become part of the project. To do that, you only need to do the following: +
-. In this repo you will find the Contributor License Agreement template file that you need to sign up for the competition.[here](https://github.com/bitDubai/cotribution-program/blob/master/Contributor-License-Agreement.md)
-. Copy all of it's content to the clipboard, and go to the folder "license-agreements", create a new file starting with your name and the name of the template file, paste the content of the clipboard there and save it.
+Anyone who adds value to the Project in any form needs to sign up a Contribution License Agreement as the first step to become part of the project. To do that, you only need to do the following:
+ 
 
+1. In this repo you will find the Contributor License Agreement template file that you need to sign up ([here](https://github.com/bitDubai/contribution-program/blob/master/license-agreements/Contributor-License-Agreement.md))
+
+2. Copy all of its content to the clipboard 
+3. Go to the folder [Bounty-program-license-agreements](https://github.com/gustl-arg/contribution-program/tree/master/license-agreements/Bounty-program-license agreements)
+4. Create a new file starting with your "GitHub alias"-"(name)"-and the name of the template file.
+5. Paste the content of the clipboard in it and save it.
+6. You are done!
 <br>
 ##### Example: 
 
@@ -25,7 +31,7 @@ Juan-Perez-Contributor-License-Agreement.md
 <br>
 ##### After Signing: 
 
-You are done! Now you are signed up and can follow the Bounty program procedure below.
+Now you are signed up and can follow the Bounty program procedure below.
 
 ## Procedure
 
