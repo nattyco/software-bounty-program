@@ -10,7 +10,8 @@ Anyone who adds value to the Project in any form needs to sign up a Contribution
 
 1. In the following link you will find the Contributor License Agreement template file that you need to sign up ([here](https://github.com/bitDubai/contribution-program/blob/master/license-agreements/Contributor-License-Agreement.md))
 2. Copy all of its content to the clipboard 
-3. Go to the folder [Bounty-program-license-agreements](https://github.com/bitDubai/contribution-program/tree/master/license-agreements/Bounty-program-license agreements)
+3. Go to the folder [Bounty-program-license-agreements](https://github.com/bitDubai/contribution-program/tree/master/license-agreements/Bounty-program-license-agreements)
+
 4. Create a new file starting with your "GitHub alias"-"(name)"-and the name of the template file.
 5. Paste the content of the clipboard in it and save it.
 6. You are done!
