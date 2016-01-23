@@ -45,13 +45,15 @@ Now you are signed up and can follow the Bounty program procedure below.
 
 1. If you miss the target month for any reason you can still be awarded half of the bounty if you reach production the following month.
 2. Your team has to maintain the code implemented during the first 3 months of production. 
-3. You wil be awarded a 10% of the bounty received for each of these 3 months.
+3. You wil be awarded a 10% extra of the bounty received for each of these 3 months.
 4. The distribution of the bounty between the team members is free. It is up to the team to decide how to distribute the bounty between them or other people from other teams that helped.
 5. Team leaders can make agreements for tokens of the possible bounty with other team leaders to help them with the project. In fact this is expected to happend with graphic designers, UX designers, copywriters and others, in order to secure their commitment to the project for certain dates.
 6. Taking the functionality into production means passing all controls, checks and approvals that might be in place by the time the code is implemented. This approval procedures might or might not be in place at the present time.
 7. The conditions of bounties that are not yet _Assigned_ might be changed at anytime by the @bounty-program-team. Once assigned, the conditions will stay fixed.
 8. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a progress too slow, it might cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
-9. Some projects might require a collateral in tokens of the team meambers assigned to the project in order to get the project. If they fail to win the bounty they will have to return the tokens in collateral. In this cases a _contract_ will be added to the _contracts_ folder in this repo along with the agreement. 
+9. Some projects might require a collateral in fermat tokens provided by the team members. These tokens will be held as a deposit during the period the team is working for the bounty. If they fail to win the bounty the collateral will be lost.
+10. A short _agreement_ will be added to the _agreements_ folder in this repo with the conditions agreed by the team and the @bounty-program-team.
+
 
 
 ## 2016 Bounties
@@ -64,20 +66,20 @@ Below you can see a table with all current bounties available and their status.
 |2|Chat Platform|  | Jan | 5,000 | Fermat Tokens | Gabriel José Miguel | Dec 2015 | | 
 |3|Crypto Broker Platform| | Jan | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | 
 |4|Digital Assets Platform| | Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | 
-|5|Wallet Production Distribution| | Jan | 10,000 | Fermat Tokens | Not Assigned | | | | 
-|6|Loss Protected Wallet| 1 | Jan | 5,000 | Fermat Tokens | Not Assigned | | | | 
-|7|Discount Wallet| 1 | Jan | 5,000 | Fermat Tokens | Not Assigned | | | | 
-|8|P2P Network v2| | Mar | 20,000 | Fermat Tokens | Not Assigned | | | | 
-|9|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
-|10|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
-|11|Fermat Tokens Wallet| | Feb | 10,000 | Fermat Tokens | Not Assigned | | | | 
-|12|Device Private Network| | Feb | 30,000 | Fermat Tokens | Not Assigned | | | | 
-|13|Crypto Distribution Network| 2 | Feb | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|14|Digital Assets Combined| 3 | Feb | 15,000 | Fermat Tokens | Not Assigned | | | | 
-|15|Marketing Platform| 3 | Feb | 20,000 | Fermat Tokens | Not Assigned | | | | 
-|16|Niche Wallets APPs| | Feb | 15,000 | Fermat Tokens | Not Assigned | | | | 
-|17|Branded Wallets APPs| 14 | Mar | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|18|Multi-Sig Vault| 10 | Mar | 30,000 | Fermat Tokens | Not Assigned | | | | 
+|5|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
+|6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
+|7|Wallet Production Distribution| | | 20,000 | Fermat Tokens | Not Assigned | | | | 
+|8|Loss Protected Wallet| 1 | | 5,000 | Fermat Tokens | Not Assigned | | | | 
+|9|Discount Wallet| 1 | | 5,000 | Fermat Tokens | Not Assigned | | | | 
+|10|P2P Network v2| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|11|Fermat Tokens Wallet| | | 10,000 | Fermat Tokens | Not Assigned | | | | 
+|12|Device Private Network| | | 40,000 | Fermat Tokens | Not Assigned | | | | 
+|13|Crypto Distribution Network| 2 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|14|Digital Assets Combined| 3 | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|15|Marketing Platform| 3 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|16|Niche Wallets APPs| | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|17|Branded Wallets APPs| 14 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|18|Multi-Sig Vault| 10 | | 30,000 | Fermat Tokens | Not Assigned | | | | 
 |19|Digital Assets Secondary Market| 12 |  | 30,000 | Fermat Tokens | Not Assigned | | | | 
 |20|Fermat Blockchain| |  | 30,000 | Fermat Tokens | Not Assigned | | | | 
 |21|Fermat P2P v3 | 7 | | 20,000 | Fermat Tokens | Not Assigned | | | | 
