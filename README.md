@@ -68,16 +68,16 @@ Below you can see a table with all current bounties available and their status.
 |4|Digital Assets Platform| | Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | 
 |5|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
 |6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
-|7|Wallet Production Distribution| | | 20,000 | Fermat Tokens | Not Assigned | | | | 
-|8|Loss Protected Wallet| 1 | | 5,000 | Fermat Tokens | Not Assigned | | | | 
-|9|Discount Wallet| 1 | | 5,000 | Fermat Tokens | Not Assigned | | | | 
-|10|P2P Network v2| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|11|Fermat Tokens Wallet| | | 10,000 | Fermat Tokens | Not Assigned | | | | 
-|12|Device Private Network| | | 40,000 | Fermat Tokens | Not Assigned | | | | 
-|13|Crypto Distribution Network| 2 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|14|Digital Assets Combined| 3 | | 15,000 | Fermat Tokens | Not Assigned | | | | 
-|15|Marketing Platform| 3 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|16|Niche Wallets APPs| | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|7|Loss Protected Wallet| 1 | | 5,000 | Fermat Tokens | Not Assigned | | | | 
+|8|Discount Wallet| 1 | | 5,000 | Fermat Tokens | Not Assigned | | | | 
+|9|P2P Network v2| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|10|Fermat Tokens Wallet| | | 10,000 | Fermat Tokens | Not Assigned | | | | 
+|11|Device Private Network| | | 40,000 | Fermat Tokens | Not Assigned | | | | 
+|12|Crypto Distribution Network| 2 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|13|Digital Assets Combined| 3 | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|14|Marketing Platform| 3 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|15|Niche Wallets APPs| | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|16|Wallet Production Distribution| | | 20,000 | Fermat Tokens | Not Assigned | | | | 
 |17|Branded Wallets APPs| 14 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |18|Multi-Sig Vault| 10 | | 30,000 | Fermat Tokens | Not Assigned | | | | 
 |19|Digital Assets Secondary Market| 12 |  | 30,000 | Fermat Tokens | Not Assigned | | | | 
