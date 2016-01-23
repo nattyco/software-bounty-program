@@ -67,10 +67,10 @@ Below you can see a table with all current bounties available and their status.
 |5|Wallet Production Distribution| | Jan | 10,000 | Fermat Tokens | Not Assigned | | | | 
 |6|Loss Protected Wallet| 1 | Jan | 5,000 | Fermat Tokens | Not Assigned | | | | 
 |7|Discount Wallet| 1 | Jan | 5,000 | Fermat Tokens | Not Assigned | | | | 
-|8|P2P Network v2| | Jan | 15,000 | Fermat Tokens | Assigned | | Dec 2015 | | 
+|8|P2P Network v2| | Mar | 20,000 | Fermat Tokens | Not Assigned | | | | 
 |9|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
 |10|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
-|11|Fermat Tokens Wallet| | Feb | 5,000 | Fermat Tokens | Not Assigned | | | | 
+|11|Fermat Tokens Wallet| | Feb | 10,000 | Fermat Tokens | Not Assigned | | | | 
 |12|Device Private Network| | Feb | 30,000 | Fermat Tokens | Not Assigned | | | | 
 |13|Crypto Distribution Network| 2 | Feb | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |14|Digital Assets Combined| 3 | Feb | 15,000 | Fermat Tokens | Not Assigned | | | | 
