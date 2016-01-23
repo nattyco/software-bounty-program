@@ -62,8 +62,8 @@ Below you can see a table with all current bounties available and their status.
 
 | # | Project |D|  Target Month | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Started / Finished | Amount Awarded [USD] |
 |:---:|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
-|1|Crypto Currency Platform|  | Jan | 5,000 | Fermat Tokens | Coin Diggers | Sep 2015 | | 
-|2|Chat Platform|  | Jan | 5,000 | Fermat Tokens | Gabriel José Miguel | Dec 2015 | | 
+|1|Crypto Currency Platform|  | Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Sep 2015 | | 
+|2|Chat Platform|  | Jan | 5,000 | Fermat Tokens | Assigned |Gabriel, José & Miguel | Dec 2015 | | 
 |3|Crypto Broker Platform| | Jan | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | 
 |4|Digital Assets Platform| | Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | 
 |5|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
