@@ -68,7 +68,7 @@ Below you can see a table with all current bounties available and their status.
 |4|Digital Assets Platform| | Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | 
 |5|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
 |6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
-|7|Android Widget Catalog| 1 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|7|Android Views Catalog| 1 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
 |8|Loss Protected Wallet| 1 | | 20,000 | Fermat Tokens | Not Assigned | | | | 
 |9|Discount Wallet| 1 | | 20,000 | Fermat Tokens | Not Assigned | | | | 
 |10|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
