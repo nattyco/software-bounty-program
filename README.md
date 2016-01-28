@@ -69,28 +69,29 @@ Below you can see a table with all current bounties available and their status.
 |5|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
 |6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
 |7|Android API v2| 1 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|8|Loss Protected Wallet| 1 | | 20,000 | Fermat Tokens | Not Assigned | | | | 
-|9|Discount Wallet| 1 | | 20,000 | Fermat Tokens | Not Assigned | | | | 
-|10|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
-|11|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|12|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|13|Device Private Network| | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|14|Crypto Distribution Network| 2 | | 75,000 | Fermat Tokens | Not Assigned | | | | 
-|15|Digital Assets Combined| 3 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|16|Marketing Platform| 3 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|17|Niche Wallets APPs| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|18|Wallet Production Distribution| | | 30,000 | Fermat Tokens | Not Assigned | | | | 
-|19|Branded Wallets APPs| 14 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|20|Multi-Sig Vault| 10 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|21|Digital Assets Secondary Market| 12 |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
-|22|Fermat Companies |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|23|Distributed Reputation System |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|24|Integrated Feedback |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|25|Customer Support |  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
-|26|Fermat APPs Licensing | 15 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|27|Fermat Multi OS | | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|28|Fermat for iOS | |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|29|Fermats Tokens Exchange | 18 | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|8|Loss Protected Wallet| 1 | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|9|Discount Wallet| 1 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|10|Fermat DA Token Wallet| 1 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|11|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
+|12|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|13|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|14|Device Private Network| | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|15|Crypto Distribution Network| 2 | | 75,000 | Fermat Tokens | Not Assigned | | | | 
+|16|Digital Assets Combined| 3 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|17|Marketing Platform| 3 | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|18|Niche Wallets APPs| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|19|Wallet Production Distribution| | | 30,000 | Fermat Tokens | Not Assigned | | | | 
+|20|Branded Wallets APPs| 14 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|21|Multi-Sig Vault| 10 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|22|Digital Assets Secondary Market| 12 |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
+|23|Fermat Companies |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|24|Distributed Reputation System |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|25|Integrated Feedback |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|26|Customer Support |  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
+|27|Fermat APPs Licensing | 15 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|28|Fermat Multi OS | | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|29|Fermat for iOS | |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|30|Fermats Tokens Exchange | 18 | | 100,000 | Fermat Tokens | Not Assigned | | | | 
 
 
 Please Note: Target month and bounty offer may change while their status is _Not Assigned_
