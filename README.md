@@ -73,7 +73,7 @@ Below you can see a table with all current bounties available and their status.
 |9|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
 |10|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
 |11|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|12|Fermats Tokens Exchange | 18 | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|12|Fermats Tokens Exchange |  | | 100,000 | Fermat Tokens | Not Assigned | | | | 
 |13|Loss Protected Wallet|  | | 15,000 | Fermat Tokens | Not Assigned | | | | 
 |14|Discount Wallet|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |15|Device Private Network| | | 100,000 | Fermat Tokens | Not Assigned | | | | 
@@ -83,7 +83,7 @@ Below you can see a table with all current bounties available and their status.
 |19|Niche Wallets APPs| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |20|Wallet Production Distribution| | | 30,000 | Fermat Tokens | Not Assigned | | | | 
 |21|Branded Wallets APPs|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|22|Multi-Sig Vault| 10 | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|22|Multi-Sig Vault|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
 |23|Digital Assets Secondary Market|  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
 |24|Fermat Companies |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
 |25|Distributed Reputation System |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
