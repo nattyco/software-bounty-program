@@ -4,35 +4,10 @@
 
 We are running a bounty program to complete the projected functionality as soon as possible. Currently bounties are not paid in cash, but in Fermat tokens. This is one of the ways we use to distribute ownership of the project with whoever adds value to it. 
 
-## License Agreement (read this first)
-Anyone who adds value to the Project in any form needs to sign up a Contribution License Agreement as the first step to become part of the project. To do that, you only need to do the following:
- 
+## Sign-up - License Agreement - (READ FIRST)
+Anyone who adds value to the Project in any form needs to sign up a Contribution License Agreement as the first step to become part of the project. To do that, please follow the steps described [here](https://github.com/bitDubai/contribution-program/tree/master/license-agreements/README.md) 
 
-1. In the following link you will find the Contributor License Agreement template file that you need to sign up  ([here](https://github.com/bitDubai/contribution-program/blob/master/license-agreements/Contributor-License-Agreement.md))
-2. Copy all of its content to the clipboard 
-3. In that repo, go to the folder [Bounty-program-license-agreements](https://github.com/bitDubai/contribution-program/tree/master/license-agreements/Bounty-program-license-agreements)
-
-4. Create a new file starting with your "GitHub alias"-"(name)"-and the name of the template file.
-5. Paste the content of the clipboard in it and save it.
-6. You are done!
-<br>
-
-#### Example: 
-
-```shell
-Juan-Perez-Contributor-License-Agreement.md
-```
-
-<br>
-#### Be Aware! : 
-
-| Note:        | By adding this new file to the corresponding repo indicated above, you are signing it with your github account and agreeing on the terms and conditions mentioned there.            | 
-| :-------------: |:-------------:| -----:|
-
-<br>
-#### After Signing: 
-
-Now you are signed up and can follow the Bounty program procedure below.
+Now, after signing up,  you can follow the Bounty program procedure below.
 
 ## Procedure
 
