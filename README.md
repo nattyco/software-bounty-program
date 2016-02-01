@@ -37,13 +37,13 @@ Below you can see a table with all current bounties available and their status.
 
 | # | Project |D|  Target Month | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Started / Finished | Amount Awarded [USD] |
 |:---:|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
-|1|Crypto Currency Platform|  | Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Sep 2015 | | 
+|1|Crypto Currency Platform|  | Jan | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Sep 2015 / Jan 2016 | 5,000 | 
 |2|Chat Platform|  | Jan | 5,000 | Fermat Tokens | Assigned |Gabriel, José & Miguel | Dec 2015 | | 
 |3|Crypto Broker Platform| | Jan | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | 
-|4|Digital Assets Platform| | Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 | | 
+|4|Digital Assets Platform| | Jan | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
 |5|Fermat ORG P2P| | Jan | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
 |6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan | 10,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | |
-|7|Recover Fermat Repo History|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 | | 
+|7|Recover Fermat Repo History|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 / Jan 2016 | 1,000 | 
 |8|Reduce 50% Compilation Time|  | | 2,000 | Fermat Tokens | Not Assigned | | | | 
 |9|Android API v2|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
 |10|Fermat DA Token Wallet|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
