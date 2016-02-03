@@ -86,15 +86,15 @@ The total amount earn by this bounty is U$ 10,000 and it will be distributed as 
 
 | Github Username | # commits | Days in project | Engagement Level | Key to reach goal | Code difficulty | Team Lead evaluation | Points | % Bounty | U$S |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|javafrank|146|102|3|3|3|4|2720|7%|**$709**
-|darkestpriest|258|92|8|5|8|7|4050|11%|**$1056**
-|franklinmarcano1970|234|92|8|5|7|7|3785|10%|**$987**
-|pennyxz|25|30|2|1|1|5|655|2%|**$171**
-|yayotron|476|122|9|9|9|9|6700|17%|**$1747**
-|neoperol|37|74|5|6|5|5|1540|4%|**$402**
-|jinmyjbv|7|30|2|1|1|5|475|1%|**$124**
-|nindriago|499|183|9|7|5|7|7380|19%|**$1924**
-|acostarodrigo|850|183|9|9|9|0|11050|29%|**$2881**
+|javafrank|146|102|3|3|3|4|232|7%|**$726**
+|darkestpriest|258|92|8|5|8|7|496|16%|**$1552**
+|franklinmarcano1970|234|92|8|5|7|7|468|15%|**$1465**
+|pennyxz|25|30|2|1|1|5|97|3%|**$305**
+|yayotron|476|122|9|9|9|9|600|19%|**$1877**
+|neoperol|0|0|0|0|0|0|0|0%|**$0**
+|jinmyjbv|7|30|2|1|1|5|95|3%|**$298**
+|nindriago|499|183|9|7|5|7|530|17%|**$1658**
+|acostarodrigo|850|183|9|9|9|0|677|21%|**$2119**
 
 ---
 
