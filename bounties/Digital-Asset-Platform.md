@@ -49,15 +49,15 @@ The demo was recorded and can be visualized here: https://www.youtube.com/watch?
 
 ## Distribution
 
-For this bounty program, several teams worked together to acchieve the goal. The evaluation and distribution among all team members was taking into account the following variables:
+For this bounty program, several teams worked together to acchieve the goal. The evaluation and distribution among all team members was done taking into account the following variables:
 
 **Each variable has a score and a weight that calculates the final percentage of the amount awarded**
 
-- Number of commits during the development period: an objective score taken from statistics at github.
+- Number of commits during the development period: an objective score taken from [statistics at github](https://github.com/bitDubai/fermat/graphs/contributors)
 
 - Amount of days dedicated to the development: and objective score calculated from the start of the design and development process at 08/01/2015.
 
-- The engagement level evaluated by the team lead: a subjective score which considered dedication, late work during week days and week ends. Every behaviour that prooved will to reach the goal of Fermat and the bounty itself.
+- The engagement level evaluated by the team lead: a subjective score which considered dedication, late work during week days and week ends. Every behaviour that prooved will to reach the goal for Fermat and the bounty itself.
 
 - Key to reach goal: a subjective score taken by the team lead that express how important each member was to accomplish the goal due to the code that was written and maintained and the bugs that were fixed.
 
@@ -84,11 +84,14 @@ The total amount earn by this bounty is U$ 10,000 and it will be distributed as 
 
 ---
 
-| Github Username | % | Amount Awarded | 
-|:----:|:----:|:----:|
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
-|      |      |      |
+| Github Username | # commits | Days in project | Engagement Level | Key to reach goal | Code difficulty | Team Lead evaluation | Points | % Bounty | U$S |
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|javafrank|146|102|3|3|3|4|2720|7%|$709
+|darkestpriest|258|92|8|5|8|7|4050|11%|$1056
+|franklinmarcano1970|234|92|8|5|7|7|3785|10%|$987
+|pennyxz|25|30|2|1|1|5|655|2%|$171
+|yayotron|476|122|9|9|9|9|6700|17%|$1747
+|neoperol|37|74|5|6|5|5|1540|4%|$402
+|jinmyjbv|7|30|2|1|1|5|475|1%|$124
+|nindriago|499|183|9|7|5|7|7380|19%|$1924
+|acostarodrigo|850|183|9|9|9|0|11050|29%|$2881
