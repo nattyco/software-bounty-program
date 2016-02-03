@@ -98,4 +98,4 @@ The total amount earn by this bounty is U$ 10,000 and it will be distributed as 
 
 ---
 
-*Calculations are available [here for review](https://drive.google.com/open?id=0B7orX7X-_kGtUzBONHBnSmpOdFU)*.
+*Calculations are available [here for review](https://drive.google.com/file/d/0B7orX7X-_kGtZnBSUE5FT1VpT00/view?usp=sharing)*.
