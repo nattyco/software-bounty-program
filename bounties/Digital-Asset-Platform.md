@@ -13,17 +13,76 @@ A Digital Asset is a digital representation of a product or service that can be 
 
 It also allows the appropiation of the bitcoins that were associated to the asset.
 
-The development of this platform included three new wallets and 7 new sub apps.
+The development of this platform included three new wallets:
+
+- Asset Issuer Wallet: wallet that stores the digital assets issued while keeping account of balances and transactions for the Asset Issuer Actor. This wallet allows the appropiation and delivery of assets to users.
+
+- Asset User Wallet: wallet that stores the digital assets delivered to an user by an Asset Issuer. This wallet allows the appropiation and redemptions of assets at Redeem Points.
+
+- Redeem Point Wallet: wallet that stores the digital assets redeemed by an asset user. 
+
+
+And also included 7 sub apps:
+
+- Asset Issuer, User and Redeem Points identities: which helps identifies the actor type on the platform.
+
+- Asset Issuer, User and Redeem Points Communities: which are used to connect the differents actors to allows interactions and asset flows.
+
+- Asset Factory: that is used for the creation and definition of every asset in the platform.
 
 ## Evaluation
 
--- explicacion de lo que se evaluó
+During the evaluation of the bounty, all cycles and proceeses where tested and they included:
 
---link al video del DEMO day
+- Creation and connection of all the actors using the Identities and Communities sub apps.
+
+- Creation and Issuing of Assets with different properties using the Asset Factory sub app.
+
+- Delivery and appropiation of assets from the Asset Issuing wallet following the distribution and redemption flow on the Redeem Point.
+
+Not all connections where passed sucessfully and due to an overload of clients connecting to the Bitcoin nodes on the RegTest network, some transactions where not confirmed successfully.
+
+During internal tests it was assured that all described processes passed completelly without errors but on the Demo day, too many users using the Bitcoin nodes prevent us to completing all flows as expected.
+
+The demo was recorded and can be visualized here: https://www.youtube.com/watch?v=QYlW-sgAiSE
+
 
 ## Distribution
 
--- fecha y monto ganado
+For this bounty program, several teams worked together to acchieve the goal. The evaluation and distribution among all team members was taking into account the following variables:
+
+**Each variable has a score and a weight that calculates the final percentage of the amount awarded**
+
+- Number of commits during the development period: an objective score taken from statistics at github.
+
+- Amount of days dedicated to the development: and objective score calculated from the start of the design and development process at 08/01/2015.
+
+- The engagement level evaluated by the team lead: a subjective score which considered dedication, late work during week days and week ends. Every behaviour that prooved will to reach the goal of Fermat and the bounty itself.
+
+- Key to reach goal: a subjective score taken by the team lead that express how important each member was to accomplish the goal due to the code that was written and maintained and the bugs that were fixed.
+
+- Code difficulty: a subjective score that tries to recognize those who where able to be engaged in difficult code and still were able to pull it with out issues.
+
+- The team lead evaluation: a subjective score that must be used as constructive feedback by team members in order to understand where to focus on next bounties to improve performance.
+
+The following table describes the wheight of each variable used to calculate the price distribution:
+
+### Variable weight matrix.
+
+| Variable name  | % |  
+|----|----:|
+|Number of commits      |**10 %**|
+|Days at project        |**10 %**|
+|Engagement Level       |**25 %**|
+|Key to reach goal      |**30 %**|
+|Code difficulty        |**25 %**|
+|Team lead evaluation   |**0 %**|
+
+---
+
+The total amount earn by this bounty is U$ 10,000 and it will be distributed as the following tables shows:
+
+---
 
 | Github Username | % | Amount Awarded | 
 |:----:|:----:|:----:|
@@ -33,5 +92,3 @@ The development of this platform included three new wallets and 7 new sub apps.
 |      |      |      |
 |      |      |      |
 |      |      |      |
-
-
