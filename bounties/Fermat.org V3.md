@@ -1,14 +1,14 @@
 #Fermat.org Version 3
 
-This bounty is to develop the fermat.org site (curretly http://dev.fermat.org) in its third version, which new ability will be to edit the former fermatManifest.xml online using the website and save it to the database. The website will require the user to login in a GitHub user account in order to keep track on who changes what.
+This bounty is to develop the third version of the fermat.org site (curretly http://dev.fermat.org), whose new ability will be to edit the former fermatManifest.xml online using the website and be able to save it to the database. The website will require the user to login using a GitHub user account in order to keep track on who changes what.
 
-At the first version of it, and for this bounty, the website sould do the required tasks usings *wizards*: forms with all the required options to do the task. The tile wizard should be something as in this minimalist draft (not a restriction, the design can change):
+At the first version of it, and used for this bounty, the website sould do the required tasks usings *wizards*: form with all the required options and be able to do the task. The tile wizard should be something like this minimalist draft (not a restriction, the design can change):
 
 ![Wizard Draft](resources/tile-wizard-draft.png)
 
 ##Functional Requirements
 
-For this bounty to be aproved, the next requirements must be met:
+For this bounty to be aproved, the following requirements must be met:
 
 In this version, fermat.org will be able to let the user edit the manifest by adding, editing and removing tiles and workflows. The functional requirements are:
 
