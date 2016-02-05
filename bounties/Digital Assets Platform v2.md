@@ -20,11 +20,12 @@ In the present, DAP is being changed and improved in the following way:
 
 * BCH layer changes to support all network types: changes to BCH to support transactions in any network concurrently. [Issue #4658 on Github](https://github.com/bitDubai/fermat/issues/4658)
 
-Additionaly, and as part of this Bounty the following changes will be added.
+* Chat platform implementation: the team is involved in fixing issues on CHT platform to reach the demo ASAP. [Issue #4234 on Github](https://github.com/bitDubai/fermat/issues/4234)
+
 
 ### Bounty scope
 
-#### New Transaction: Asset User Distribution
+#### New Transaction: Distribution of assets between users.
 
 This transaction will be used to transfer assets between users (Asset User --> Asset User). Current existing transactions regarding distribution only involves Asset Issuer --> Asset User actors.
 
@@ -63,7 +64,7 @@ The process can be described as follows:
 * New transactional plugins **Asset Exchange Generation** and **Asset Exchange Reception** to perform the transactional steps to generate and receive an asset exchange transaction.
 
 
-**Once approved, the design will be completed in dev.fermat.org flows**
+***Once approved, the design will be completed in dev.fermat.org flows with much more detail***
      
 
 ## Timeline
@@ -78,6 +79,9 @@ To be considered success this bounty must pass the following tests:
 * Exchange an asset between users in any network.
 * The combination of any possible allowed behaviour by the applications without generating errors that doesn't allow to continue the evaluation.
 
+*[Evaluation results to be completed after evaluation]*
 
 ## Distribution
+
+*[Distribution to be completed after evaluation]*
 
