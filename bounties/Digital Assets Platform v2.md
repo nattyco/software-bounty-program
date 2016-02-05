@@ -12,15 +12,13 @@ After [previous bounty] (link a previous bounty) was completed, new needs have r
 
 In the present, DAP is being changed and improved in the following way:
 
-* Changes to Community Apps: Asset Issuer, Asset User and Redeem Point community apps doesn't connect to actors by default and enables them to request for permission and only get performs the connection after authorization from the actor. [Issue #222 on Github] (link to github)
+* Changes to Community Apps: Asset Issuer, Asset User and Redeem Point community apps doesn't connect to actors by default and enables them to request for permission and only get performs the connection after authorization from the actor. [Issue #4692 on Github](https://github.com/bitDubai/fermat/issues/4692)
 
-* Multiple network selection: all DAP wallets and sub apps allows the selection of the NetworkType (MainNet, TestNet and RegTestNet) while all processes and transactions must still continue working as expected. [Issue #222 on Github] (link to github)
+* Multiple network selection: all DAP wallets and sub apps allows the selection of the NetworkType (MainNet, TestNet and RegTestNet) while all processes and transactions must still continue working as expected. [Issue #4693 on Github](https://github.com/bitDubai/fermat/issues/4693)
 
-* Wallets GUI small improvements: we are enhancing the user experience by adding Search options, filter of data for assets with no positive balance, etc. [Issue #222 on Github] (link to github)
+* Wallets GUI small improvements: we are enhancing the user experience by adding Search options, filter of data for assets with no positive balance, etc. [Issue #4694 on Github](https://github.com/bitDubai/fermat/issues/4694)
 
-* Wallets and Factory GUI general UX changes: the design team is working on changing the general look and feel of the DAP Wallets and Asset Factory app. [Issue #222 on Github] (link to github)
-
-* BCH layer changes to support all network types: changes to BCH to support transactions in any network concurrently. [Issue #222 on Github] (link to github)
+* BCH layer changes to support all network types: changes to BCH to support transactions in any network concurrently. [Issue #4658 on Github](https://github.com/bitDubai/fermat/issues/4658)
 
 Additionaly, and as part of this Bounty the following additions will be scoped:
 
