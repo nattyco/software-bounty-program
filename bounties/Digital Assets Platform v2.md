@@ -53,17 +53,35 @@ If exchange confiirmation is approved, the next steps are to perform the payment
 
 2. Each exchange participant will generate a new bitcoin transaction using their own funds as inputs and a **Multi Signature output** using both keys. After creation this transactions will be broadcasted to the network.
 
-   The *Asset Seller* will use the asset bitcoins as input, and create an output valid for both public Keys, and the *Asset Buyer* will use the agreed exchange costs to generate the transaction from his Bitcoin wallet with the same output. 
+    The *Asset Seller* will use the asset bitcoins as input, and create an output valid for both public Keys, and the *Asset Buyer* will use the agreed exchange costs to generate the transaction from his Bitcoin wallet with the same output. 
 
-3. After transactions have been confirmed, each participant will notify the other of the Transaction Hash and the block chas of each transaction and each participant will validate they are correct.
+3. After transactions have been confirmed, each participant will notify the other of the Transaction Hash and the block hash of each transaction and each participant will validate they are correct.
 
-Validation will include that the created transaction by earch actor has the correct bitcoin amount and that the keys correspond to each other.
+    Validation will include that the created transaction by earch actor has the correct bitcoin amount and that the keys correspond to each other.
 
 4. Once validation is complete, they will create signatures for the transactions they are receiving funds from and send the signatures to the other participant.
 
 5. Each participant will create a new transaction using the previous broadcasted transaction as input and will complete the signing with their own sign on the transaction. Each participant will broadcast the transactions and wait for the incomig one that will end the process.
 
 6. When payment is received by *Asset Seller* will be added to the **Bitcoin Wallet** and asset will generate a credit in the **Asset User Wallet** as usual.
+
+The following table describes the process with an example:
+
+| Step | Asset Seller | Asset Buyer |
+|:---:||---:|---:|
+|1|Selects Asset to sell and specifies Exchange Metadata. Asset Cost 1BTC | Receives asset to but|
+|2| Recieves exchange confirmation from buyer | Receives asset information and confirms operation of buying at 1BTC.|
+|3| Generates PublicKey in Bitcoin Vault | Generates public Key in Asset Vault|
+|4| Sends public Key to buyer with NS | Sends public Key to seller with NS|
+|5| Generates Tran. A with own inputs for GenesisAmount and multi sig output | Generates Tran. B with own inputs for 1 BTC and multi sig output|
+|6| Broadcast tran A and waits confirmation | Broadcast tran B and waits confirmation|
+|7| Send to buyer tx Hash and block Hash of Tran A with NS | Send to seller tx Hash and block Hash of Tran B with NS|
+|8| Validate existence of Tran B in blockchain with correct value and outputs| Validate existence of Tran A in blockchain with correct value and outputs|
+|9| Generates new Transaction C with Tran A as input and output for buyer address| Generates new Transaction D with Tran B as input and output for seller address|
+|10| Signs transaction C and send signature to buyer using NS| Signs transaction D and send signature to seller using NS|
+|11| Recreates same transaction D and apply both signatures | Recreates same transaction C and apply both signatures|
+|12| Broadcast transaction D | Broadcast Transaction C|
+|13| Detects transaction and perform credit in Bitcoin Wallet | Detects transaction and performs credit in Asset User Wallet.|
 
 ---
 
@@ -74,6 +92,8 @@ Changes to implement for this new transaction are:
 * new transaction plugin **Asset Exchange Asset User Seller** to handle the transaction in the seller role.
 * new DAP Messages to transfer data between users on the **Actor Asset User** network service. This network Service must allow retries and cancellation of messages.
 * Changes to Bitcoin and Asset Vaults to support the bitcoins transactions.
+* New Exchange Asset Metadata that extends the original Asset Metadata class which includes Asset Cost, exchange expiration date, amount of assets to sell.
+* Changes to *Asset Transmission* network Service, to allow the transmission of *Exchange Asset Metadata* information
 
 ***Once approved, the design will be completed in dev.fermat.org flows with much more detail***
      
