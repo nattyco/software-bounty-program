@@ -69,7 +69,7 @@ The following table describes the process with an example:
 
 | Step | Asset Seller | Asset Buyer |
 |:---:|:---|---:|
-|1|Selects Asset to sell and specifies Exchange Metadata. Asset Cost 1BTC | Receives asset to but|
+|1|Selects Asset to sell and specifies Exchange Metadata. Asset Cost 1BTC | Receives asset to buy|
 |2| Recieves exchange confirmation from buyer | Receives asset information and confirms operation of buying at 1BTC.|
 |3| Generates PublicKey in Bitcoin Vault | Generates public Key in Asset Vault|
 |4| Sends public Key to buyer with NS | Sends public Key to seller with NS|
