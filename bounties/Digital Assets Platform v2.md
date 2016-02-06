@@ -68,7 +68,7 @@ If exchange confiirmation is approved, the next steps are to perform the payment
 The following table describes the process with an example:
 
 | Step | Asset Seller | Asset Buyer |
-|:---:||---:|---:|
+|:---:|:---|---:|
 |1|Selects Asset to sell and specifies Exchange Metadata. Asset Cost 1BTC | Receives asset to but|
 |2| Recieves exchange confirmation from buyer | Receives asset information and confirms operation of buying at 1BTC.|
 |3| Generates PublicKey in Bitcoin Vault | Generates public Key in Asset Vault|
