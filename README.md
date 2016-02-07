@@ -18,19 +18,19 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 
 ## Rules
 
-1. If you miss the target month for any reason you can still be awarded half of the bounty if you reach production the following month.
-2. Your team has to maintain the code implemented during the first 3 months of production. 
-3. You wil be awarded a 10% extra of the bounty received for each of these 3 months.
+1. If you miss the target month for any reason you can still be awarded half of the bounty if you reach the targe phase the following month.
+2. A team has to maintain the code implemented during the first 3 months in production. 
+3. The team will be awarded a 10% extra of the bounty received for each of these 3 months.
 4. The distribution of the bounty between the team members is free. It is up to the team to decide how to distribute the bounty between them or other people from other teams that helped.
 5. Team leaders can make agreements for tokens of the possible bounty with other team leaders to help them with the project. In fact this is expected to happend with graphic designers, UX designers, copywriters and others, in order to secure their commitment to the project for certain dates.
-6. Taking the functionality into production means passing all controls, checks and approvals that might be in place by the time the code is implemented. This approval procedures might or might not be in place at the present time.
+6. Reaching production phase means passing all controls, checks and approvals that might be in place by the time the code is implemented. Those approval procedures might or might not be in place at present time.
 7. The conditions of bounties that are not yet _Assigned_ might be changed at anytime by the @bounty-program-team. Once assigned, the conditions will stay fixed.
-8. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a progress too slow, it might cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
+8. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a the progress is too slow, it might cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
 9. Some projects might require a collateral in fermat tokens provided by the team members. These tokens will be held as a deposit during the period the team is working for the bounty. If they fail to win the bounty the collateral will be lost.
 10. A short _agreement_ will be added to the _agreements_ folder in this repo with the conditions agreed by the team and the @bounty-program-team.
 11. The same _agreement_ document will be updated once the bounty is won with a distribution table where all beneficiaries will be listed together with the percentage that they will receive.
 12. The payment of the bounty will be done when the project is released to general public (production). If the bounty amount is anything else but Fermat Tokens, the amount of Tokens to receive will be calculated at the Tokens price at the date the project is relesed to the public.
-13. Your Team cannot participate on other bounty of this program until the current one you are working at is released (production).
+13. A Team cannot participate on other bounty of this program until the current one you are working at is released (production).
 14. Team members cannot leave the team for other teams before the project reaches production phase. The only way to leave is leaving the Fermat project.
 
 ## 2016 Bounties
