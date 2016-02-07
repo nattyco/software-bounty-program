@@ -84,7 +84,7 @@ The total amount earn by this bounty is U$ 10,000 and it will be distributed as 
 
 ---
 
-| Github Username | # commits | Days in project | Eng Level | Key to reach goal | Code difficulty | Team Lead evaluation | Points | % Bounty | U$S |
+| Github Username | # commits | Days in project | Eng Level | Key to reach goal | Code Diffi- culty | Team Lead Eva- luation | Points | % Bounty | U$S |
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |javafrank|146|102|3|3|3|4|232|7%|**$732**
 |darkestpriest|258|92|8|5|8|7|496|15%|**$1475**
