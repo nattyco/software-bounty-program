@@ -47,7 +47,7 @@ Below you can see a table with all current bounties available and their status.
 |8|[Digital Assets Platform v2](https://github.com/bitDubai/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  | | | 
 |9|Reduce 50% Compilation Time|  | | 2,000 | Fermat Tokens | Not Assigned | | | | 
 |10|Android Components Tool Box|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|11|Fermat DA Token Wallet|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
+|11|Fermat Token Platform|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
 |12|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |13|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
 |14|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
