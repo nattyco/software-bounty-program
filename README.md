@@ -28,7 +28,8 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 8. If the @bounty-program-team sees a lack of commitment of a team with the project assigned or a progress too slow, it might cancel the assigment and return the project to the pool of _Not Assigned_ bounties.
 9. Some projects might require a collateral in fermat tokens provided by the team members. These tokens will be held as a deposit during the period the team is working for the bounty. If they fail to win the bounty the collateral will be lost.
 10. A short _agreement_ will be added to the _agreements_ folder in this repo with the conditions agreed by the team and the @bounty-program-team.
-
+11. The same _agreement_ document will be updated once the bounty is won with a distribution table where all beneficiaries will be listed together with the percentage that they will receive.
+12. The effective payment of the bounty will be when the project is released to general public (production). If the bounty amount is anything else but Fermat Tokens, the amount of Tokens to receive will be calculated at the Tokens price at the date the project was relesed to the public.
 
 
 ## 2016 Bounties
