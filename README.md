@@ -30,7 +30,7 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 10. A short _agreement_ will be added to the _agreements_ folder in this repo with the conditions agreed by the team and the @bounty-program-team.
 11. The same _agreement_ document will be updated once the bounty is won with a distribution table where all beneficiaries will be listed together with the percentage that they will receive.
 12. The payment of the bounty will be done when the project is released to general public (production). If the bounty amount is anything else but Fermat Tokens, the amount of Tokens to receive will be calculated at the Tokens price at the date the project is relesed to the public.
-13. A Team cannot participate on other bounty of this program until the current one you are working at is released (production).
+13. A Team cannot participate on other bounty of this program until the current one they are working at is released (production).
 14. Team members cannot leave the team for other teams before the project reaches production phase. The only way to leave is leaving the Fermat project.
 
 ## 2016 Bounties
