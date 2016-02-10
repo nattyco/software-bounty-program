@@ -59,12 +59,12 @@ The following table describes the process with an example:
 |1|Selects Asset to sell and specifies Asset Sell Metadata. | |
 |2|Sends Sell Asset Metadata to Asset Buyer | Receives asset information and confirms operation of buying at 1BTC.|
 |3|Receives Selling operation confirmation from Asset Buyer| |
-|4| Generates bitcoin transaction  filling own **unsigned** inputs and output to buyer | |
+|4| Generates bitcoin transaction  filling own **unsigned** inputs and output to buyer (*AssetVault.createDraftTransaction* method) |
 |5| Sends draft transaction to buyer using Asset Transmission NS| Received Draft transaction |
-|6| | Validate Seller transaction is well formed and add **signed** own inputs and outputs for buyer|
+|6| | Validate Seller transaction is well formed (*DraftTransaction.getFundsDistribution and getValue*) and add own inputs and outputs for buyer  (*BitcoinVault.addInputsToDraftTransaction*). Transaction then is **signed** (*BitcoinVault.signTransaction*) |
 |7| Receives final partially signed transaction from Buyer | Sends transaction to Asset Buyer|
-|8| Validate transaction is correct and signed own inputs in transaction | |
-|9| Broadcast Transaction| |
+|8| Validate transaction is correct (*DraftTransaction.getFundsDistribution and getValue*) and signed own inputs in transaction (*AssetVault.signTransaction*) | |
+|9| Makes transaction final (*AssetVault.createBitcoinTransaction*)  and (*CryptoNetwork.BroadcastTransaction*) Broadcast it| |
 |10| Execute debit in Asset Wallet and Credit in Bitcoin Wallet| Generate debit in Bitcoin Wallet and credit in Asset Wallet|
 
 ---
