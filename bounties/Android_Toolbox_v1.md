@@ -70,7 +70,7 @@ Se desarrollarán los siguientes componentes,views,widget,optimizadores,utilidad
 |ChatView	| fragmento ya pre-armado con lista de chat, burbujas, adapter, holders.|	Luis |	fragmento |
 |notificationes	| template de notificaciones |	furszy |	view |
 |BitcoinPicker |	selector de los diferentes montos de bitcoin (mili,micro,satoshis,etc) |	furszy |	dialog,popup,fragmento |
-|MoneySelectorDialog |	selector de monedas de los diferentes países |	Luis |	dialog,popup,fragmento |
+|CurrencySelectorDialog |	selector de monedas de los diferentes países |	Luis |	dialog,popup,fragmento |
 |SettingsView |	diseño de vista para el settings de cualquier aplicacion fermat |	furszy	| Componente |
 |IdentitySelector|	Un view para seleccionar identidades (en las communities/wallets por ejemplo). Que se pueda trigger desde por ejemplo el header del navigationDrawer |	abicelis |	view?|
 |FermatAdapter 2.0 |	Mejorar el fermat adapter para que sea mas sencillo agregar cosas como footers y headers, terminar de implementar la capacidad de usar tipos |	nelsonalfo |	Adapter|
