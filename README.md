@@ -50,7 +50,7 @@ Below you can see a table with all current bounties available and their status.
 |9|Digital Asset Store|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |10|Reduce 50% Compilation Time|  | | 2,000 | Fermat Tokens | Not Assigned | | | | 
 |11|Android Components Tool Box|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|12|Fermat Token Platform|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
+|12|[Fermat Token Platform]((https://github.com/bitDubai/bounty-program/blob/master/bounties/Fermat-Token-Platform.md))|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
 |13|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |14|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
 |15|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
