@@ -4,8 +4,9 @@
 
 ## Introduction
 
-Fermat es una aplicación compleja que corre sobre nuestro propio framework de desarrollo, nos encontramos en una capa sobre el sistema operativo, en este primer momento estamos desarrollando sobre android, por lo cual, se deben crear las bases para poder crear aplicaciónes más sencilla y rapidamente en nuestra plataforma.
-Se deben crear las bases de componentes,vistas,utilidades y optimizadores para poder abstraernos lo más posible del sistema operativo, comenzando por las conexiones con fermat/utilidades a más bajo nivel y subiendo hasta componentes ya contruidos y preparados para su uso.
+Fermat es una aplicación compleja que corre sobre nuestro propio framework de desarrollo, nos encontramos en una capa sobre el sistema operativo, en este primer momento estamos desarrollando sobre android, por lo cual, se deben crear las bases para poder facilitar y agilizar la creación de aplicaciónes en nuestra plataforma.
+
+Se deben desarrollae las bases, componentes,vistas,utilidades y optimizadores para poder llegar a un nivel de abstracción superior, dejando de pensar en lenguajes de programación y comenzando a pensar en componentes, comenzando por el más bajo nivel del framework y subiendo hasta componentes ya contruidos y preparados para su uso.
 
 ## Scope
 
@@ -61,7 +62,7 @@ In the present, the toolbox have the basics things to develop in fermat, we have
 
 #### Toolbox version V1
 
-Se desarrollarán los siguientes componentes,views,widget,optimizadores,utilidades y mejoras:
+Se desarrollarán los siguientes componentes,views,widget,optimizadores,utilidades y mejoras (hace falta acomodarlos por niveles, lo voy a hacer en mi documento y después lo paso acá):
 
 ---
 | Artefacto  | Descripción  | Idea  | Tipo de vista  |
@@ -69,7 +70,7 @@ Se desarrollarán los siguientes componentes,views,widget,optimizadores,utilidad
 |ChatView	| fragmento ya pre-armado con lista de chat, burbujas, adapter, holders.|	Luis |	fragmento |
 |notificationes	| template de notificaciones |	furszy |	view |
 |BitcoinPicker |	selector de los diferentes montos de bitcoin (mili,micro,satoshis,etc) |	furszy |	dialog,popup,fragmento |
-|MoneySelectorDialog |	selector de monedas de los diferentes países |	Luis |	dialog,popup,fragmento |
+|CurrencySelectorDialog |	selector de monedas de los diferentes países |	Luis |	dialog,popup,fragmento |
 |SettingsView |	diseño de vista para el settings de cualquier aplicacion fermat |	furszy	| Componente |
 |IdentitySelector|	Un view para seleccionar identidades (en las communities/wallets por ejemplo). Que se pueda trigger desde por ejemplo el header del navigationDrawer |	abicelis |	view?|
 |FermatAdapter 2.0 |	Mejorar el fermat adapter para que sea mas sencillo agregar cosas como footers y headers, terminar de implementar la capacidad de usar tipos |	nelsonalfo |	Adapter|
