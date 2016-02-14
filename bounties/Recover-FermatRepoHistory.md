@@ -1,3 +1,5 @@
+![alt text](https://github.com/bitDubai/media-kit/blob/master/MediaKit/Fermat%20Branding/Fermat%20Logotype/Fermat_Logo_3D.png "Fermat Logo")
+
 # Recover Fermat Repo History Bounty
 
 ## Introduction
