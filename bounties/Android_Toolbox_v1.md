@@ -94,6 +94,8 @@ Se desarrollarán los siguientes componentes,views,widget,optimizadores,utilidad
 |contactsFragment |	ventana de contactos con valores básicos como lo son: el nombre, la imagen.	|furszy | componente|
 |FermatProgressBar |	una barra de progreso que se pueda actualizar facilmente desde las notificaciones |	acostarodrigo | view |
 |WalletSelectorDialog |	un selector de wallets dentro de fermat, con el cual se va a poder realizar alguna acción al clickearla |	furszy | view|
+|Mnemonic dialog/screen |una pantalla/vista la cual sirva para exportar la clave mnemonic de la wallet |	acostarodrigo | view|
+
 
 ---
 
