@@ -101,6 +101,8 @@ This genesis Transaction will be zero value and the fee payment will be from the
 
 * We should provide methods to export and import the **Asset Issuer** registered identity to be able to use it on any device.
 
+---
+
 #### Asset Issuer Identity Validation
 
 Currently there is no way for any Asset User to verify that the Asset Issuer sending the asset is the expected identity. For example: we can't validate if an asset from Mc Donalds, is actually from Mc Donalds.
@@ -113,16 +115,23 @@ Currently there is no way for any Asset User to verify that the Asset Issuer sen
 
 * Any other actor receiving an asset from an specific Issuer, can provide feedback to be recorded in the Reputation platform, so that users can decide to connect to Issuers and receive their assets or not.
 
+---
 
 #### Multiple Assets Transaction
 
 Currently, we are generating a bitcoin transaction for each asset issued. Each transaction needs to pay at least the fees needed to complete a full cycle, estimated in 30000 satoshis.
 
-A way must be provided to allow the creation of mutiple assets in a single bitcoin transaction.
+Issuing many assets is expensive!
 
 ##### Proposed Solution:
 
-[No solution yet]
+* The issuing process will be changed to create a single transaction with the total amount of bitcoins for all the involved assets value. For example, for generating 500000 tokens, with a 10000 satoshis value (including fee), we will create a single Genesis trasnaction of 0.0005 BTC
+
+* Each Distribution transaction that sents the asset to a Uset, will use the Genesis Transaction as Input. And a small portion of the total value of the Genesis Transaction will be deducted.
+
+* Genesis Transaction funds will be exhausted, once all the assets have been distributed to the users.
+
+---
 
 #### Asset Issuer token public transparency
 
