@@ -1,6 +1,6 @@
 ![alt text](https://github.com/bitDubai/media-kit/blob/master/MediaKit/Fermat%20Branding/Fermat%20Logotype/Fermat_Logo_3D.png "Fermat Logo")
 
-# Fermat Token Platform
+# Token Platform
 
 ## Introduction
 
@@ -10,31 +10,33 @@ There is a business need to start issuing Fermat Tokens manually, and the creati
 
 ## Scope
 
-### Fermat Token Platform
+### Token Platform
 
 A new platform will be created that will include:
 
-* new Fermat Token Wallet
+* new Token Wallet
 
-* new Actor and Identity **Fermat Token Issuer**, that will extend **Asset Issuer** identity and actor.
+* new Actor and Identity **Token Issuer**, that will extend **Asset Issuer** identity and actor.
 
-* New Transactions that will be used to define basic information for the Fermat Tokens and a heavily usage of DAP Transactions.
+* New Transactions that will be used to define basic information for the tokens and a heavily usage of DAP Transactions.
 
 
-### New Digital Asset type: Fermat Token
+### New Digital Asset type: Token
 
-We will be adding a new type of *Digital Asset* called **Fermat Token** that will have an specific *Digital Asset Contract*.
+We will be adding a new type of *Digital Asset* called **Token** that will have an specific *Digital Asset Contract*.
 
 Current *Digital Asset Contract* properties include:
 
 * Expiration Date: which can be null.
 * Allow Redemption: indicates if it can be redeemable in a Redemption Point. Token Assets will **not be** reedemable.
-* Allow Transfer: indicates if it can be transfered between users. Token Assets will be transferable.
-* Allow Selling: indicates if it can be selled and buyed between users. Token assets will be allowed for selling.
+* Allow Transfer: indicates if it can be transfered between users. Token Assets can be transferable.
+* Allow Selling: indicates if it can be selled and buyed between users. Token assets can be selled.
 
-Specific Fermat Token Assets contract properties will include:
+Specific Token Assets contract properties will include:
 
-* Fermat Token amount: indicating the amoun of Fermats Tokens this asset represents.
+* Token value: indicating the amount of Tokens this asset represents.
+
+* Fermat Token serial number: a way to indicate how many tokens are available to emit, and identity each token uniquely.
 
 ### Transactions
 
@@ -53,48 +55,86 @@ Current transactions supported at DAP are:
 
 Changes should be included in all transactions types to validate identity of Asset Issuer. *See Current Issues* section.
 
-### Fermat Token Wallet
+### Token Wallet 
 
-A new type of Wallet will be added to store the issued Fermat Tokens and support the DAP Transactions execution.
+*[Under review if really needed]*
 
-### Fermat Token Factory
+A new type of Wallet will be added to store the issued Tokens and support the DAP Transactions execution.
 
-that will allow the manual creation of **Fermat Tokens** defining the contract properties and DAP Transactions.
+### Token Factory
 
+*[Under review if really needed]*
 
+that will allow the manual creation of **Tokens** defining the contract properties and DAP Transactions.
+
+---
 ### Current issues
+
+The following [flow](http://prezi.com/cqb4evuiwfpw/?utm_campaign=share&utm_medium=copy&rc=ex0share) describes the possible solutions to:
+
+* Asset Issuer Identity Registration 
+* Asset Issuer Identity Validation
+* Asset Issuer token public transparency
 
 #### Asset Issuer Identity Registration
 
 Currently, the platforms allows the creation of **Asset Issuer** identities without any type of control. Meaning that anyone can register an **Asset Issuer** identity choosing whatever name. Identity creation happens locally on each device and assets are created using that identity.
 
-**Assets Users** later receive those assets without validating the authenticity of the **Asset Issuer** that sent the asset.
 
-Since *Fermat.org* will be the **Asset Issuer** identity creating the **Fermat Tokens** we need to provide validation to the platform to allow the issuing of Fermat to this unique identity and provide mechanisms for **Asset Users** to accept them.
 
-These validations shoulds exists not only for the new Fermat Tokens platform but for every **Asset Issuer** identity creation in DAP platform.
+##### Proposed Solution: blockchain registration
 
-##### Blockchain registration proposal:
+* The creation of the Asset Issuer identity is registered in the Bitcoin Blockchain with an **Asset Issuer Genesis** transaction that includes in the OP_Return field the name of the identity and the amount of tokens that will ever be generated. It also has the Asset Issuer public Key in the transaction output.
 
-* The creation of the Asset Issuer identity is registered in the Bitcoin Blockchain with an **Asset Issuer Registration** transaction that includes in the OP_Return field the public key of the identity.
+The OP_Return will be used in the following way: [Asset Issuer Name in String] [Max Tokens in Hex]
+for example:
+op_Return: fermat.org 1406F40 (identity name and 20.000.000 tokens expressed in hex)
+Output: public key generated by the Asset Issuer Identity.
 
-* The Asset factory, before allowing the creation of an asset, request the **Asset Issuer Registration** transaction to validate it existence and compares the Asset Issuer hash and request the identity private key to sign  the issued asset.
+This genesis Transaction will be zero value and the fee payment will be from the *Bitcoin Wallet*.
 
-* This ensures that every asset created is owned by the registered **Asset Issuer** identity.
+* The Asset factory, before allowing the creation of an asset, request the **Asset Issuer Genesis** transaction from the Blockchain to validate it existence and compares the Asset Issuer name and public Key againt the identity.
 
-* When an Asset User or Redeem Point receives an asset, an additional validation to verify that the asset is from a registered **Asset Issuer** should be added by getting the **Asset Issuer Registration** transaction from the blockchain. Since the platform already validates that the Asset is the same that was issued by the Asset Issuer during the Issuing process, no additional validations are necessary to certify the asset is from the registered issuer.
+* If there is a match, the Asset Issuer must sign the asset by providing the private key that generated the public key. With this validation, the asset Factory allows the isser to create the token.
+
+* When an Asset User or Redeem Point receives an asset, an additional validation to verify that the asset is from a registered **Asset Issuer** should be added by getting the **Asset Issuer Genesis** transaction from the blockchain. Since the platform already validates that the Asset is the same that was issued by the Asset Issuer during the Issuing process, no additional validations are necessary to certify the asset is from the registered issuer.
 
 * We should provide methods to export and import the **Asset Issuer** registered identity to be able to use it on any device.
 
-##### P2P validation of the Identity
+#### Asset Issuer Identity Validation
 
-* Registered identities should be propagated accross the P2P network of Fermat devices and stored locally to provide control on **Asset Issuer** name, picture and data so that only one identity with that information exists.
+Currently there is no way for any Asset User to verify that the Asset Issuer sending the asset is the expected identity. For example: we can't validate if an asset from Mc Donalds, is actually from Mc Donalds.
 
-* Before registering an **Asset Issuer** on Blockchain, the platform must validate no other issuer already exits with the same parameters.
+##### Proposed Solution: P2P network and Reputation platform
 
-* Another option could be to store each registered Identity on a centralized server to validate that only one identity with the defined information exists.
+* Registered identities should be propagated accross the P2P network of Fermat devices and stored locally to provide control on **Asset Issuer** name, picture and data so any new Issuer being created, can be notified of matching names.
 
-By adding these controls, a single, unique and validated **Asset Issuer** identity representing  a issuing role, would exists in the P2P network.
+* Every asset issued by the Issuer Identity will be registered in the reputation platform informing transaction hash and block hash, to be able to get the info from Blockchain for validation.
+
+* Any other actor receiving an asset from an specific Issuer, can provide feedback to be recorded in the Reputation platform, so that users can decide to connect to Issuers and receive their assets or not.
+
+
+#### Multiple Assets Transaction
+
+Currently, we are generating a bitcoin transaction for each asset issued. Each transaction needs to pay at least the fees needed to complete a full cycle, estimated in 30000 satoshis.
+
+A way must be provided to allow the creation of mutiple assets in a single bitcoin transaction.
+
+##### Proposed Solution:
+
+[No solution yet]
+
+#### Asset Issuer token public transparency
+
+Information regarding the amount of token issued by an Asset Issuer must be public for anyone to see and control.
+
+##### Proposed Solution:
+
+* Storing information on the blockchain during asset issuing that notifies how many tokens will ever be issued by that Asset Issuer during the Identity registration.
+
+* Storing each Issued Asset in the blockchain as we are actually doing and allowing the P2P network to store the detailed information of how many assets are being issued. The Reputation Platform, would sync this information regarding the amounts of assets issued and the means to find them on the blockchain.
+
+* Asset Factory will prevent an Issuer to continue generating assets after the limit has been reached.
 
 ## Timeline
 
