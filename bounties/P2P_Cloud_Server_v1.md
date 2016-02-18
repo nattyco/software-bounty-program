@@ -41,7 +41,7 @@ El Cliente (Cloud Client) este plugin es el encargado de la interaccion con el s
 
 ## Línea de tiempo
 
-Sobre la base de la carga de trabajo y los recursos actuales disponibles, la fecha de entrega de esta recompensa (bounty) será **15 de Marzo **.
+Sobre la base de la carga de trabajo y los recursos actuales disponibles, la fecha de entrega de esta recompensa (bounty) será **15 de Marzo**.
 
 ## Evaluación
 
