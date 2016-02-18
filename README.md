@@ -29,9 +29,11 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 9. Some projects might require a collateral in fermat tokens provided by the team members. These tokens will be held as a deposit during the period the team is working for the bounty. If they fail to win the bounty the collateral will be lost.
 10. A short _agreement_ will be added to the _agreements_ folder in this repo with the conditions agreed by the team and the @bounty-program-team.
 11. The same _agreement_ document will be updated once the bounty is won with a distribution table where all beneficiaries will be listed together with the percentage that they will receive.
-12. The payment of the bounty will be done when the project is released to general public (production). If the bounty amount is anything else but Fermat Tokens, the amount of Tokens to receive will be calculated at the Tokens price at the date the project is relesed to the public.
-13. A Team cannot participate on other bounty of this program until the current one they are working at is released (production).
-14. Team members cannot leave the team for other teams before the project reaches production phase. The only way to leave is leaving the Fermat project.
+12. 11. At a DEMO-DAY the team showcases the functionality that has developed and a jury decides if the bounty should be awarded or not.
+13. The payment of the bounty will be done when the project is released to general public (production). The amount of Tokens to receive will be calculated at the Tokens price at the date the project is relesed to the public.
+14. The bounty awarded expires after 30 days of the DEMO day if the project has not been released.
+15. A Team cannot participate on other bounty of this program until the current one they are working at is released (production).
+16. Team members cannot leave the team for other teams before the project reaches production phase. The only way to leave is leaving the Fermat project.
 
 ## 2016 Bounties
 
