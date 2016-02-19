@@ -4,7 +4,7 @@
 
 ## Introduccion
 
-La interconexion entre sistemas, y aplicaciones distribuidas corriendo en diferentes dispositivos es una de las necesidades fundamentales en era de la globalización e internet, esta necesidad de compartir y buscar información es solventada atraves de las redes. Fermat no escapa de esta necesiad y uno de sus primeras metas es contar con una Red Peer to Peer (The Fermat Network) para el intercambio de toda su metadata, e información relevante para su funcionamiento.
+La interconexion entre sistemas, y aplicaciones distribuidas corriendo en diferentes dispositivos es una de las necesidades fundamentales en era de la globalización e internet, esta necesidad de compartir y buscar información es solventada atraves de las redes. Fermat no escapa de esta necesidad y uno de sus primeras metas es contar con una Red Peer to Peer (The Fermat Network) para el intercambio de toda su metadata, e información relevante para su funcionamiento.
 
 Las redes P2P permiten el intercambio directo de información, en cualquier formato, entre los dispositivos interconectados, una serie de nodos que se comportan como iguales entre sí, los cuales proveen y aportan el ancho de banda y computo distribuido para los recursos que hacen funcionar la red. Las redes P2P tienen muchas ventajas grandes e importantes, pero una de sus mayores problemas es su implemetación debido a la complegidad que involucra como por ejemplo: la mayor parte de los nodos de Internet no disponen de una dirección IP fija o siquiera accesible para otros nodos de Internet,  los nodos que se conectan a través de redes locales como Wifi o Ethernet, de aquellos que tienen algún tipo de cortafuegos y NAT. 
 
