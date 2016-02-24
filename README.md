@@ -1,6 +1,6 @@
 ![alt text](https://github.com/bitDubai/media-kit/blob/master/MediaKit/Fermat%20Branding/Fermat%20Logotype/Fermat_Logo_3D.png "Fermat Logo")
 
-# Fermat Bounty Program
+# Software Bounty Program
 
 We are running a bounty program to complete the projected functionality as soon as possible. Currently bounties are not paid in cash, but in Fermat tokens. This is one of the ways we use to distribute ownership of the project with whoever adds value to it. 
 
