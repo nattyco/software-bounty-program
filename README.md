@@ -53,29 +53,30 @@ Below you can see a table with all current bounties available and their status.
 |10|Reduce 50% Compilation Time|  | | 2,000 | Fermat Tokens | Not Assigned | | | | 
 |11|[Android Components Tool Box](https://github.com/bitDubai/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned | | | | 
 |12|[Fermat Token Platform](https://github.com/bitDubai/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
-|13|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|14|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
-|15|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|16|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|17|Fermats Tokens Exchange |  | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|18|Loss Protected Wallet|  | | 15,000 | Fermat Tokens | Not Assigned | | | | 
-|19|Discount Wallet|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|20|Device Private Network| | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|21|Crypto Distribution Network|  | | 75,000 | Fermat Tokens | Not Assigned | | | | 
-|22|Digital Assets Combined|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|23|Marketing Platform|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|24|Niche Wallets APPs| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|25|Wallet Production Distribution| | | 30,000 | Fermat Tokens | Not Assigned | | | | 
-|26|Branded Wallets APPs|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|27|Multi-Sig Vault|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|28|Digital Assets Secondary Market|  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
-|29|Fermat Companies |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|30|Distributed Reputation System |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|31|Integrated Feedback |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|32|Customer Support |  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
-|33|Fermat APPs Licensing | | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|34|Fermat Multi OS | | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|35|Fermat for iOS | |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|13|[P2P Cloud Server](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto | | | | 
+|14|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|15|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
+|16|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|17|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|18|Fermats Tokens Exchange |  | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|19|Loss Protected Wallet|  | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|20|Discount Wallet|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|21|Device Private Network| | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|22|Crypto Distribution Network|  | | 75,000 | Fermat Tokens | Not Assigned | | | | 
+|23|Digital Assets Combined|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|24|Marketing Platform|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|25|Niche Wallets APPs| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|26|Wallet Production Distribution| | | 30,000 | Fermat Tokens | Not Assigned | | | | 
+|27|Branded Wallets APPs|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|28|Multi-Sig Vault|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|29|Digital Assets Secondary Market|  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
+|30|Fermat Companies |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|31|Distributed Reputation System |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|32|Integrated Feedback |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|33|Customer Support |  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
+|34|Fermat APPs Licensing | | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|35|Fermat Multi OS | | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|36|Fermat for iOS | |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
 
 
 
