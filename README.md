@@ -46,7 +46,7 @@ Below you can see a table with all current bounties available and their status.
 |3|Crypto Broker Platform| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | 
 |4|[Digital Assets Platform](https://github.com/bitDubai/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| | Jan / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
 |5|Fermat ORG P2P| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
-|6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan / Release | 10,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | |
+|6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan / Release | 10,000 | Fermat Tokens | Assigned | Ricardo Emmanuel | Dec 2015 | |
 |7|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 / Jan 2016 | 1,000 | 
 |8|[Digital Assets Platform v2](https://github.com/bitDubai/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  | | | 
 |9|Digital Asset Store|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
