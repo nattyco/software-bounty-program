@@ -6,10 +6,8 @@
 
 Its main goal is to protect the user from losing money when attempting to spend Bitcoins at a price lower than the price when that Bitcoin amount was first purchased (or entered the wallet).
 The new functionalities include:
-
-    Storing the exchange rate when a BTC amount is received in the wallet
-
-    Checking the exchange rate when the user attempts to spend an amount of BTC and freeze the funds if they are below the purchased price
+* Storing the exchange rate when a BTC amount is received in the wallet.
+* Checking the exchange rate when the user attempts to spend an amount of BTC and freeze the funds if they are below the purchased price.
 
 The Fermat book chapter related to this bounty can be found here: https://github.com/Fermat-ORG/fermat-book/blob/master/book-chapter-12.asciidoc
 
