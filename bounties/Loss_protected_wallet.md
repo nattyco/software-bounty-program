@@ -32,13 +32,18 @@ Tendra como funciones basicas:
   
   * Impedir que el usuario envie btc si la cotización actual es menor a la cotizacion del ultimo ingreso de btc a la billetera.
 
-  * Mostrar una lista básica contactos (de nombre de usuario y la dirección de la criptografía en relación con cada contacto)
+  * Mostrar una lista básica contactos (de nombre de usuario y la dirección de la criptografía en relación con cada contacto).
+  
+  * Mostrar en una pantalla la informacion estadistica de las "porciones de valor" y cuanto lleva consumida de cada una.
+ 
+  * Poder hacer una transferencia de la Reference Wallet a esta wallet y viceversa.
  
  Para esta nueva wallet se necesitaran desarrollar las siguientes componentes:
  
  - Loss Protected Wallet App
  - Loss Protected Wallet Module
- - Basic Loss Protecte Wallet: 
+ - Basic Loss Protecte Wallet.
+ - Modulo Transaccional para las transferencias entre la reference wallet y esta wallet.
 
 ### Current developments in progress
 
@@ -58,6 +63,7 @@ Se desarrollarán los siguientes componentes:
  * App Loss Protected Wallet: aplicacion de android que permitira al usuario hacer uso de las funciones de esta wallet.
  * Module Loss Protected Wallet: que conectara la app de Android con el resto de los plugins.
  * Basic Loss Protected Wallet: plugin que guardara la informacion de las transacciones de la wallet, balance y cotizaciones.
+ * Modulo Transaccional:que sera el encargado de hacer los traspasos de btc del balance de la reference wallet a la loss protected wallet y viceversa.
 
 
 
