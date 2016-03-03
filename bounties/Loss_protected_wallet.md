@@ -6,10 +6,8 @@
 
 Its main goal is to protect the user from losing money when attempting to spend Bitcoins at a price lower than the price when that Bitcoin amount was first purchased (or entered the wallet).
 The new functionalities include:
-
-    Storing the exchange rate when a BTC amount is received in the wallet
-
-    Checking the exchange rate when the user attempts to spend an amount of BTC and freeze the funds if they are below the purchased price
+* Storing the exchange rate when a BTC amount is received in the wallet
+* Checking the exchange rate when the user attempts to spend an amount of BTC and freeze the funds if they are below the purchased price
 
 The Fermat book chapter related to this bounty can be found here: https://github.com/Fermat-ORG/fermat-book/blob/master/book-chapter-12.asciidoc
 
@@ -32,13 +30,19 @@ Tendra como funciones basicas:
   
   * Impedir que el usuario envie btc si la cotización actual es menor a la cotizacion del ultimo ingreso de btc a la billetera.
 
-  * Mostrar una lista básica contactos (de nombre de usuario y la dirección de la criptografía en relación con cada contacto)
+  * Mostrar una lista básica contactos (de nombre de usuario y la dirección de su bitcoin wallet)
+  * 
+  * Poder hacer una transferencia de la Reference Wallet a esta wallet y viceversa, a traves de un nuevo modulo transaccional de intercambio de btc intra device.
+  * 
+  * Mostrar en una pantalla la informacion estadistica de los ingresos en btc, cada uno tomado como una unidad que se irá dividiendo si es necesario para ir consumiendo la totalidad de los inputs de la transacción original.
+
  
  Para esta nueva wallet se necesitaran desarrollar las siguientes componentes:
  
  - Loss Protected Wallet App
  - Loss Protected Wallet Module
- - Basic Loss Protecte Wallet: 
+ - Basic Loss Protecte Wallet
+ - Modulo Transaccional de intercambio de btc intra device
 
 ### Current developments in progress
 
@@ -58,12 +62,14 @@ Se desarrollarán los siguientes componentes:
  * App Loss Protected Wallet: aplicacion de android que permitira al usuario hacer uso de las funciones de esta wallet.
  * Module Loss Protected Wallet: que conectara la app de Android con el resto de los plugins.
  * Basic Loss Protected Wallet: plugin que guardara la informacion de las transacciones de la wallet, balance y cotizaciones.
+ * Desarrollar un modulo transaccional de intercambio de btc intra device.
+ * Desarrollar la funcionalidad para poder tomar cada btc de la wallet como una unidad que se ira dividiendo si es necesario para ir consumiendolos en base a la evaluación de la cotización original con la que ingresaron los fondos y la cotización al momento de consumirlos.
 
 
 
 ## Timeline
 
-Sobre la base de la carga de trabajo y los recursos actuales disponibles, la fecha de entrega de esta recompensa (bounty) será ****.
+Sobre la base de la carga de trabajo y los recursos actuales disponibles, la fecha de entrega de esta recompensa (bounty) será **31 de Marzo**.
 
 ## Evaluation
 
