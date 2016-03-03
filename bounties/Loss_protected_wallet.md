@@ -31,9 +31,9 @@ Tendra como funciones basicas:
   * Impedir que el usuario envie btc si la cotización actual es menor a la cotizacion del ultimo ingreso de btc a la billetera.
 
   * Mostrar una lista básica contactos (de nombre de usuario y la dirección de su bitcoin wallet)
-  * 
+  
   * Poder hacer una transferencia de la Reference Wallet a esta wallet y viceversa, a traves de un nuevo modulo transaccional de intercambio de btc intra device.
-  * 
+  
   * Mostrar en una pantalla la informacion estadistica de los ingresos en btc, cada uno tomado como una unidad que se irá dividiendo si es necesario para ir consumiendo la totalidad de los inputs de la transacción original.
 
  
