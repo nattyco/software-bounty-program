@@ -9,6 +9,8 @@ The new functionalities include:
 * Storing the exchange rate when a BTC amount is received in the wallet
 * Checking the exchange rate when the user attempts to spend an amount of BTC and freeze the funds if they are below the purchased price
 
+Al momento de gastar los btc la app evaluara si la cotización actual es mayor a la cotización guardada para el ultimo ingreso de btc a la wallet, y permitira ir gastando los bloques de valor empezando por el que tenga la cotización más alta primero para continuar consumiendo los siguientes bloques de valor de menor cotización.
+
 The Fermat book chapter related to this bounty can be found here: https://github.com/Fermat-ORG/fermat-book/blob/master/book-chapter-12.asciidoc
 
 ## Scope
