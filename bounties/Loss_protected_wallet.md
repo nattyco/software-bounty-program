@@ -52,7 +52,11 @@ Esta wallet reutilizara las componentes de CCP ya desarrolladas
 - Network Services de envio de metadata.
 - Network Services de conexiones entre Fermat Intra Actors
 - Network Services de obtención de address de Intra Actors
-
+- Network Services de envio y recepción de Payment Request.
+- Modulo de crypto address.
+- Modulo de payment request.
+- 
+En esta wallet se utilizara la subapp Community para establecer relaciones entre Fermat Users, que despues podran ser agregados como contactos, y la subapp Identity para crear la identidad asociada a la wallet. 
 
 
 ### Bounty scope
