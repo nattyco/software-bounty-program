@@ -80,8 +80,11 @@ Se desarrollarán los siguientes componentes:
 #### Workflows
 
 - Envio de Btc
+- Recepcion de Btc
 - Agregar una conexion con un Itra User como un contacto
-- Enviar un Requerimiento de Pago
+- Enviar o Recibir un Requerimiento de Pago
+- Denegar un Requerimiento de Pago
+- Aceptar un Requerimiento de Pago
 - Hacer una transferencia a otra wallet
 
 
