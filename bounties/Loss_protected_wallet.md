@@ -93,16 +93,23 @@ Se desarrollarán los siguientes componentes:
       * Resumen de balance available y book
       * Listado de transacciones enviadas y recibidas
 - Navigation Drawer: 
-       * Identidad
+       * Identidad: Permite ir a la subapp Identity y modificar los datos cargados, como User Name y foto.
        * Contactos
+          * Listado de Contactos
+          * Ver Detalle del Contacto con la opcion de hacer un envio de btc o un requerimiento de pago.
+          * Agregar un nuevo contacto externo o un Fermat User.
        * Payment Request
+          * Listado de Requerimientos enviados y recibidos
+          * Hacer un nuevo requerimiento de pago
        * Estadisticas de consumo de los bloques de Valor
-       * Transacciones entre Wallets
        * Settings
+           * Enviar Btc a otra wallet
+           * Enabled Send Btc Protected
+           * Change Networks
 - Wallet Toolbar
        * Help
        * Send Btc a contactos
-       * Send Btc a otra wallet
+       
     
 
 ## Timeline
