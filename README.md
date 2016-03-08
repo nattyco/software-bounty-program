@@ -59,7 +59,7 @@ Below you can see a table with all current bounties available and their status.
 |16|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
 |17|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
 |18|Fermats Tokens Exchange |  | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|19|Loss Protected Wallet|  | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|19|[Loss Protected Wallet](https://github.com/nattyco/software-bounty-program/blob/patch-1/bounties/Loss_protected_wallet.md)|  | | 15,000 | Fermat Tokens | Not Assigned | | | | 
 |20|Discount Wallet|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |21|Device Private Network| | | 100,000 | Fermat Tokens | Not Assigned | | | | 
 |22|Crypto Distribution Network|  | | 75,000 | Fermat Tokens | Not Assigned | | | | 
