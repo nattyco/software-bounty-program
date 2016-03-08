@@ -26,17 +26,21 @@ Tendra como funciones basicas:
 
   * Mostrar transacciones
 
-  * Mostrar el balance de la  billetera
+  * Mostrar el balance de la  billetera tanto available como book. El balance available sera calculado en base a los bloques de valor que puede consumir en ese momento teniendo en cuenta la cotización en dolares de los btc.
   
-  * Mostrar la cotizacíon actual en dolares del bitcoin.
+  * Mostrar la cotizacíón actual en dolares del bitcoin.
   
   * Impedir que el usuario envie btc si la cotización actual es menor a la cotizacion del ultimo ingreso de btc a la billetera.
 
   * Mostrar una lista básica contactos (de nombre de usuario y la dirección de su bitcoin wallet)
   
-  * Poder hacer una transferencia de la Reference Wallet a esta wallet y viceversa, a traves de un nuevo modulo transaccional de intercambio de btc intra device.
+  * Poder hacer una transferencia de la Reference Wallet a esta wallet y viceversa, a traves de un nuevo modulo transaccional de intercambio de btc intra wallets.
   
   * Mostrar en una pantalla la informacion estadistica de los ingresos en btc, cada uno tomado como una unidad que se irá dividiendo si es necesario para ir consumiendo la totalidad de los inputs de la transacción original.
+  
+  * Permitir evitar la restricción de proteccion de perdida de btc mediante la selección de un seteo en la configuración de la wallet. Que si esta en true no dejara gastar los btc y si esta en false podra gastarlos.
+  
+
 
  
  Para esta nueva wallet se necesitaran desarrollar las siguientes componentes:
@@ -58,7 +62,9 @@ Esta wallet reutilizara las componentes de CCP ya desarrolladas
 - Modulo de crypto address.
 - Modulo de payment request.
 
-En esta wallet se utilizara la subapp Community para establecer relaciones entre Fermat Users, que despues podran ser agregados como contactos, y la subapp Identity para crear la identidad asociada a la wallet. 
+Se utilizara la subapp Community para establecer relaciones entre Fermat Users, que despues podran ser agregados como contactos, y la subapp Identity para crear la identidad asociada a la wallet. 
+
+La cotización actual en dolares se obtendra de la componente CBP Crypto World Fiat Index
 
 
 ### Bounty scope
@@ -68,10 +74,27 @@ Se desarrollarán los siguientes componentes:
  * App Loss Protected Wallet: aplicacion de android que permitira al usuario hacer uso de las funciones de esta wallet.
  * Module Loss Protected Wallet: que conectara la app de Android con el resto de los plugins.
  * Basic Loss Protected Wallet: plugin que guardara la informacion de las transacciones de la wallet, balance y cotizaciones.
- * Desarrollar un modulo transaccional de intercambio de btc intra device.
+ * Desarrollar un modulo transaccional de intercambio de btc intra wallets.
  * Desarrollar la funcionalidad para poder tomar cada btc de la wallet como una unidad que se ira dividiendo si es necesario para ir consumiendolos en base a la evaluación de la cotización original con la que ingresaron los fondos y la cotización al momento de consumirlos.
 
+#### Workflows
 
+#### Wallet Graphic interface
+- Home:
+      * Resumen de balance available y book
+      * Listado de transacciones enviadas y recibidas
+- Navigation Drawer: 
+       * Identidad
+       * Contactos
+       * Payment Request
+       * Estadisticas de consumo de los bloques de Valor
+       * Transacciones entre Wallets
+       * Settings
+- Wallet Toolbar
+       * Help
+       * Send Btc a contactos
+       * Send Btc a otra wallet
+    
 
 ## Timeline
 
