@@ -79,6 +79,12 @@ Se desarrollarán los siguientes componentes:
 
 #### Workflows
 
+- Envio de Btc
+- Agregar una conexion con un Itra User como un contacto
+- Enviar un Requerimiento de Pago
+- Hacer una transferencia a otra wallet
+
+
 #### Wallet Graphic interface
 - Home:
       * Resumen de balance available y book
