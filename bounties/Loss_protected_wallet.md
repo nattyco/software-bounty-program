@@ -79,7 +79,7 @@ Se desarrollarán los siguientes componentes:
 
 #### Workflows
 
-**Envio de Btc**: El usuario de la wallet selecciona la opcion de Send, especifica el contacto al cual hacer el envio y la cantidad de btc, presiona Send. Se verifica el balance disponible para gastar en base a la cotización actual del dolar contra la cotización original de los distintos ingresos de btc.
+**Envío de Btc**: El usuario de la wallet selecciona la opcion de Send, especifica el contacto al cual hacer el envio y la cantidad de btc, presiona Send. Se verifica el balance disponible para gastar en base a la cotización actual del dolar contra la cotización original de los distintos ingresos de btc.
 Si la cotizacion actual es menor se le informara al usuario que no puede hacer el envio ya que perdera dinero, si el seteo de bypass de esta restringcion esta activado se podra hacer el envio de todos modos a pesar de la advertencia. De lo contrario el envio no se realiza.
 
   Si la cotización es mayor la trasaccion es enviada a traves del modulo transaccional CCP Outgoing Intra Actor Transacction, o   del CCP Outgoing Extra Actor Transacction para contactos externos, al modulo Crypto Vault y se transmite los btc por el        modulo Crypto Bitcoin Network. 
@@ -88,10 +88,12 @@ Si la cotizacion actual es menor se le informara al usuario que no puede hacer e
 
   Se envia a traves del NetWork Services Crytpo Transmission la metadata con la información de la transacción a traves del     servidor P2P de Fermat.
 
-**Recepcion de Btc**: El modulo Crypto Bitcoin Network informa al modulo Incoming Intra User Transacction, o al modulo CCP Incoming Extra Actor Transacction para contactos externos, que llega una nueva transacción para esta wallet.
+**Recepción de Btc**: El modulo Crypto Bitcoin Network informa al modulo Incoming Intra User Transacction, o al modulo CCP Incoming Extra Actor Transacction para contactos externos, que llega una nueva transacción para esta wallet.
 Se espera la llegada de la metadata a traves del NetWork Services Crypto Transmission para aplicar la transaccion a traves del modulo Loss Protected Basic Wallet que registra la transacción y consulta la cotización actual de los btc en dolares, para guardar este dato y actualizar el balance disponible.
 
-- Agregar una conexion con un Itra User como un contacto
+**Agregar una conexion con un Itra User como un contacto**: Desde la opcion Contactos de la Wallet se podra agregar un nuevo contacto de tipo Fermat User, al elegir esta opción se vera el listado de conexiónes ya realizadas a traves de la sub app Community, si no se tienen conexiones se podra acceder desde este punto a la sub app Community para realizarlas.
+Al elegir uno de estos Fermat User de la lista se creara un nuevo contacto para la wallet a traves del modulo Wallet Contact Middleware y se solcitara la wallet address del contacto a traves del NetWork Services Crypto Address el cual envia una solicitud al otro dispositivo a traves de la red P2P de Fermat para que se le retorne la dirección.
+
 - Enviar o Recibir un Requerimiento de Pago
 - Denegar un Requerimiento de Pago
 - Aceptar un Requerimiento de Pago
