@@ -75,17 +75,27 @@ Se desarrollarán los siguientes componentes:
  * Module Loss Protected Wallet: que conectara la app de Android con el resto de los plugins.
  * Basic Loss Protected Wallet: plugin que guardara la informacion de las transacciones de la wallet, balance y cotizaciones.
  * Desarrollar un modulo transaccional de intercambio de btc intra wallets.
- * Desarrollar la funcionalidad para poder tomar cada btc de la wallet como una unidad que se ira dividiendo si es necesario para ir consumiendolos en base a la evaluación de la cotización original con la que ingresaron los fondos y la cotización al momento de consumirlos.
+ * Desarrollar la funcionalidad para poder tomar cada btc de la wallet como una unidad que se ira dividiendo, si es necesario, para ir consumiendolos en base a la evaluación de la cotización original con la que ingresaron los fondos y la cotización al momento de consumirlos.
 
 #### Workflows
 
-- Envio de Btc
-- Recepcion de Btc
+- **Envio de Btc**: El usuario de la wallet selecciona la opcion de Send, especifica el contacto al cual hacer el envio y la cantidad de btc, presiona Send. Se verifica el balance disponible para gastar en base a la cotización actual del dolar contra la cotización original de los distintos ingresos de btc.
+Si la cotizacion actual es menor se le informara al usuario que no puede hacer el envio ya que perdera dinero, si el seteo de bypass de esta restringcion esta activado se podra hacer el envio de todos modos a pesar de la advertencia. De lo contrario el envio no se realiza.
+
+Si la cotización es mayor la trasaccion es enviada a traves del modulo transaccional CCP Outgoing Intra Actor Transacction, o del CCP Outgoing Extra Actor Transacction para contactos externos, al modulo Crypto Vault y se transmite los btc por el modulo Crypto Bitcoin Network. 
+
+Se descuenta el monto enviado del balance del la wallet a traves el modulo Loss Protected Basic Wallet quien registra la transacción. Y se realiza el calculo de cuantos bloques de valor se consumieron en esta transaccion y actualiza el balance disponible.
+
+Se envia a traves del NetWork Services Crytpo Transmission la metadata con la información de la transacción a traves del servidor P2P de Fermat.
+
+- **Recepcion de Btc**: El modulo Crypto Bitcoin Network informa al modulo Incoming Intra User Transacction, o al modulo CCP Incoming Extra Actor Transacction para contactos externos, que llega una nueva transacción para esta wallet.
+Se espera la llegada de la metadata a traves del NetWork Services Crypto Transmission para aplicar la transaccion a traves del modulo Loss Protected Basic Wallet que registra la transacción y consulta la cotización actual de los btc en dolares, para guardar este dato y actualizar el balance disponible.
+
 - Agregar una conexion con un Itra User como un contacto
 - Enviar o Recibir un Requerimiento de Pago
 - Denegar un Requerimiento de Pago
 - Aceptar un Requerimiento de Pago
-- Hacer una transferencia a otra wallet
+- Hacer una transferencia a otra wallet:
 
 
 #### Wallet Graphic interface
