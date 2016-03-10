@@ -94,10 +94,21 @@ Se espera la llegada de la metadata a traves del NetWork Services Crypto Transmi
 **Agregar una conexion con un Itra User como un contacto**: Desde la opcion Contactos de la Wallet se podra agregar un nuevo contacto de tipo Fermat User, al elegir esta opción se vera el listado de conexiónes ya realizadas a traves de la sub app Community, si no se tienen conexiones se podra acceder desde este punto a la sub app Community para realizarlas.
 Al elegir uno de estos Fermat User de la lista se creara un nuevo contacto para la wallet a traves del modulo Wallet Contact Middleware y se solcitara la wallet address del contacto a traves del NetWork Services Crypto Address el cual envia una solicitud al otro dispositivo a traves de la red P2P de Fermat para que se le retorne la dirección.
 
-- Enviar o Recibir un Requerimiento de Pago
-- Denegar un Requerimiento de Pago
-- Aceptar un Requerimiento de Pago
-- Hacer una transferencia a otra wallet:
+**Enviar o Recibir un Requerimiento de Pago**: Desde el detalle de un contacto o desde la pantalla de Payment Request se acceder al formulario para hacer un nuevo requerimiento de Pago, se selecciona el contacto  y el monto de btc a solicitar al presionar Send el requerimiento es guardado por el modulo Crypto Payment Request y este le informa al Network Services Crypto Payment Request que envie el requerimiento de pago al dispositivo de destino a traves de la red P2P de Fermat.
+Cuando el otro dispositivo lo recibe responde con la confirmación de recepción.
+
+En el caso de recibir un payment request el Network Services Crypto Payment Request envia un evento al modulo Crypto Payment Request para notificarle que recibio un nuevo requerimiento asi este modulo lo registra y es mostrado luego en el listado de Payment Request Recived de la wallet.
+
+**Denegar un Requerimiento de Pago**: Al recibir un nuevo payment request desde el listado de Payment Request Received se selecciona la opción Deny, en el modulo Crypto Payment Request se cambia el estado de este requerimiento a denegado y se le informa al Network Services Crypto Payment Request que debe enviar una notificación de que el requerimiento se denego al otro dispositivo a traves de la red P2P de Fermat.
+
+**Aceptar un Requerimiento de Pago**: Al recibir un nuevo payment request desde el listado de Payment Request Received se selecciona la opción Accept, se ejecuta el flujo descripto para el Envio de Btc y una vez efectuada la transacción se 
+se cambia en el modulo Crypto Payment Request el estado de este requerimiento a aceptado y se le informa al Network Services Crypto Payment Request que debe enviar una notificación de que el requerimiento se acepto al otro dispositivo a traves de la red P2P de Fermat.
+
+
+**Hacer una transferencia a otra wallet**: Desde esta wallet se podra hacer una transferencia de btc a otra wallet de la plataforma fermat de la que sea dueño el usuario. El usuario ingresa a la pantalla de transferencia de btc a otra wallet, elige la wallet y la cantidad de btc a transferir, esta opción no tendra restricciones de protección) y presiona Send.
+La transacción es enviada al modulo Crypto Vault a traves del modulo Outgoing Device User Transaction al modulo Crypto Vault y se transmite los btc por el modulo Crypto Bitcoin Network. 
+ Se descuenta el monto enviado del balance del la wallet a traves el modulo Loss Protected Basic Wallet quien registra la     transacción. Y se realiza el calculo de cuantos bloques de valor se consumieron en esta transaccion y actualiza el balance  disponible.
+  Se envia a traves del NetWork Services Crytpo Transmission la metadata con la información de la transacción a traves del     servidor P2P de Fermat.
 
 
 #### Wallet Graphic interface
