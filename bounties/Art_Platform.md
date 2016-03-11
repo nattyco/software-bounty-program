@@ -23,8 +23,8 @@ For this version we will use **Tokenly** as external system, Tokenly is a websit
 ### New Android App: Fan song wallet.
 This **Wallet** will allow the fan to review a list of artist connected to the fan that have an active account in **Tokenly**. Also, it must show available songs on the local storage device and display songs purchased through **Tokenly**.
 
-### New Android App: Music Player.
-This will be an app that plays a song obtained through the TKY platform..
+### New Android Sub-App: Music Player.
+This will be an sub app that plays a song obtained through the TKY platform..
 ​
 ### New Android Sub-App: Artist Community
 This sub app will provide a list of Artists Actors registered on the platform and the functionality to connect a Fermat actor with any of the artist displayed in the list.
@@ -41,8 +41,8 @@ This sub app will provide the functionality to create an identity as an Fan on t
 ### New Wallet Module: Fan song wallet
 Wallet module for Fan song wallet.
 
-### New Module: Fan song wallet
-Wallet module for Fan song wallet.
+### New Sub app Module: Fan song wallet
+Sub app module for Fan song wallet.
 ​
 ### New Sub app Module: Artist Community
 Sub app module for Artist Community.
