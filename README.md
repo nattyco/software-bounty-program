@@ -44,15 +44,15 @@ Below you can see a table with all current bounties available and their status.
 |1|Crypto Currency Platform|  | Jan / Alpha | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Sep 2015 / Jan 2016 | 5,000 | 
 |2|Chat Platform|  | Jan / Alpha  | 5,000 | Fermat Tokens | Assigned |Gabriel, José & Miguel | Dec 2015 | | 
 |3|Crypto Broker Platform| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | 
-|4|[Digital Assets Platform](https://github.com/bitDubai/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| | Jan / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
+|4|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| | Jan / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
 |5|Fermat ORG P2P| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
 |6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan / Release | 10,000 | Fermat Tokens | Assigned | Ricardo Emmanuel | Dec 2015 | |
 |7|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 / Jan 2016 | 1,000 | 
-|8|[Digital Assets Platform v2](https://github.com/bitDubai/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  | | | 
+|8|[Digital Assets Platform v2](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  | | | 
 |9|Digital Asset Store|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|10|[Reduce 50% Compilation Time] (https://github.com/bitDubai/software-bounty-program/blob/master/bounties/Reduce_compilation_time.md)|  |February / Release| 2,000 | Fermat Tokens | Assigned |Manuel, Victor & Nerio|February 2016|2,000| 
-|11|[Android Components Tool Box](https://github.com/bitDubai/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned | | | | 
-|12|[Fermat Token Platform](https://github.com/bitDubai/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
+|10|[Reduce 50% Compilation Time] (https://github.com/FERMAT-ORG/software-bounty-program/blob/master/bounties/Reduce_compilation_time.md)|  |February / Release| 2,000 | Fermat Tokens | Assigned |Manuel, Victor & Nerio|February 2016|2,000| 
+|11|[Android Components Tool Box](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned | | | | 
+|12|[Fermat Token Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
 |13|[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto | | | | 
 |14|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |15|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
