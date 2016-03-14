@@ -18,31 +18,18 @@ The Fermat book chapter related to this bounty can be found here: https://github
 ## General Purpose
 
 Desarrollar la app Loss Protected Wallet que sera parte de la capa CCP y reutilizara componentes ya realizados como Network Services, modulos transaccionales y modulos de contactos.
-Tendra como funciones basicas:
 
-  * Hacer un pago en BTC (enviar bitcoin a un contacto)
+Tendra las misma funcionalidad de la Bitcoin Wallet yse agregara la siguiente funcionalidad especifica para esta wallet :
+* El balance available sera calculado en base a los bloques de valor que puede consumir en ese momento teniendo en cuenta la cotización en dolares de los btc.
 
-  * Recibir pagos en BTC
+* Mostrar en una pantalla los btc que tiene la wallet y cuanto se lleva consumido de cada chunk value.
 
-  * Mostrar transacciones
+* Al momento de hacer un pago no se podra exceder del balance disponible calculado en base a la cotización actual del dolar.
 
-  * Mostrar el balance de la  billetera tanto available como book. El balance available sera calculado en base a los bloques de valor que puede consumir en ese momento teniendo en cuenta la cotización en dolares de los btc.
-  
-  * Mostrar la cotizacíón actual en dolares del bitcoin.
-  
-  * Impedir que el usuario envie btc si la cotización actual es menor a la cotizacion del ultimo ingreso de btc a la billetera.
+* Se mostrara el valor del btc respecto a la cotización del dolar del momento.
 
-  * Mostrar una lista básica contactos (de nombre de usuario y la dirección de su bitcoin wallet)
-  
-  * Poder hacer una transferencia de la Reference Wallet a esta wallet y viceversa, a traves de un nuevo modulo transaccional de intercambio de btc intra wallets.
-  
-  * Mostrar en una pantalla la informacion estadistica de los ingresos en btc, cada uno tomado como una unidad que se irá dividiendo si es necesario para ir consumiendo la totalidad de los inputs de la transacción original.
-  
-  * Permitir evitar la restricción de proteccion de perdida de btc mediante la selección de un seteo en la configuración de la wallet. Que si esta en true no dejara gastar los btc y si esta en false podra gastarlos.
-  
+* Desde los settings de la wallet se podra evitar la restricción de proteccion de perdida de btc mediante la selección de un seteo en la configuración de la wallet. Que si esta en true no dejara gastar los btc y si esta en false podra gastarlos.
 
-
- 
  Para esta nueva wallet se necesitaran desarrollar las siguientes componentes:
  
  - Loss Protected Wallet App
