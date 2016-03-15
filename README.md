@@ -33,7 +33,8 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 13. The payment of the bounty will be done when the project is released to general public (production). The amount of Tokens to receive will be calculated at the Tokens price at the date the project is relesed to the public.
 14. The bounty awarded expires after 30 days of the DEMO day if the project has not been released.
 15. A Team cannot participate on other bounty of this program until the current one they are working at is released (production).
-16. Team members cannot leave the team for other teams before the project reaches production phase. The only way to leave is leaving the Fermat project.
+16. Team members cannot leave the team for other teams before the project reaches the phase specified on this bounty program. The only way to leave is leaving the Fermat project.
+17. GUI and A project types have one free review. The following reviews without approval will cost the team 25% of the bounty each.
 
 ## 2016 Bounties
 
