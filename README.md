@@ -39,9 +39,9 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 
 Below you can see a table with all current bounties available and their status. 
 
-| # | Project |D|  Target Month / Phase | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Started / Finished | Amount Awarded / Payed [USD] |
+| Code | Project |D|  Target Month / Phase | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Started / Finished | Amount Awarded / Payed [USD] |
 |:---:|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
-|1|Crypto Currency Platform|  | Jan / Alpha | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Sep 2015 / Jan 2016 | 5,000 | 
+|CCP|Crypto Currency Platform|  | Jan / Alpha | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Sep 2015 / Jan 2016 | 5,000 | 
 |2|Chat Platform|  | Jan / Alpha  | 5,000 | Fermat Tokens | Assigned |Gabriel, José & Miguel | Dec 2015 | | 
 |3|Crypto Broker Platform| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | 
 |4|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| | Jan / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
