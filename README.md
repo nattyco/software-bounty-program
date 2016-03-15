@@ -39,44 +39,44 @@ Now, after signing up,  you can follow the Bounty program procedure below.
 
 Below you can see a table with all current bounties available and their status. 
 
-| Code | Project |D|  Target Month / Phase | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Started / Finished | Amount Awarded / Payed [USD] |
+| Type | Project |D|  Target Month / Phase | Bounty Amount [USD] | To be paid in | Status | Assigned Team | Started / Finished | Amount Awarded / Payed [USD] |
 |:---:|:---:|:---:|:---:|---:|:---:|:---:|:---:|:---:|:--:|---:|---:|
-|CCP|Crypto Currency Platform|  | Jan / Alpha | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Sep 2015 / Jan 2016 | 5,000 | 
-|2|Chat Platform|  | Jan / Alpha  | 5,000 | Fermat Tokens | Assigned |Gabriel, José & Miguel | Dec 2015 | | 
-|3|Crypto Broker Platform| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | 
-|4|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| | Jan / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
-|5|Fermat ORG P2P| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
-|6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan / Release | 10,000 | Fermat Tokens | Assigned | Ricardo Emmanuel | Dec 2015 | |
-|7|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 / Jan 2016 | 1,000 | 
-|8|[Digital Assets Platform v2](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  | | | 
-|9|Digital Asset Store|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|10|[Reduce 50% Compilation Time] (https://github.com/FERMAT-ORG/software-bounty-program/blob/master/bounties/Reduce_compilation_time.md)|  |February / Release| 2,000 | Fermat Tokens | Assigned |Manuel, Victor & Nerio|February 2016|2,000| 
-|11|[Android Components Tool Box](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned | | | | 
-|12|[Fermat Token Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
-|13|[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto | | | | 
-|14|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|15|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
-|16|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|17|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|18|Fermats Tokens Exchange |  | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|19|Loss Protected Wallet|  | | 15,000 | Fermat Tokens | Not Assigned | | | | 
-|20|Discount Wallet|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|21|Device Private Network| | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|22|Crypto Distribution Network|  | | 75,000 | Fermat Tokens | Not Assigned | | | | 
-|23|Digital Assets Combined|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|24|Marketing Platform|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|25|Niche Wallets APPs| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
-|26|Wallet Production Distribution| | | 30,000 | Fermat Tokens | Not Assigned | | | | 
-|27|Branded Wallets APPs|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|28|Multi-Sig Vault|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|29|Digital Assets Secondary Market|  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
-|30|Fermat Companies |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|31|Distributed Reputation System |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|32|Integrated Feedback |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|33|Customer Support |  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
-|34|Fermat APPs Licensing | | | 50,000 | Fermat Tokens | Not Assigned | | | | 
-|35|Fermat Multi OS | | | 100,000 | Fermat Tokens | Not Assigned | | | | 
-|36|Fermat for iOS | |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Crypto Currency Platform|  | Jan / Alpha | 5,000 | Fermat Tokens | Assigned | Coin Diggers | Sep 2015 / Jan 2016 | 5,000 | 
+|All|Chat Platform|  | Jan / Alpha  | 5,000 | Fermat Tokens | Assigned |Gabriel, José & Miguel | Dec 2015 | | 
+|All|Crypto Broker Platform| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Nelson & Cía | Oct 2015 | | 
+|All|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| | Jan / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
+|All|Fermat ORG P2P| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
+|All|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan / Release | 10,000 | Fermat Tokens | Assigned | Ricardo Emmanuel | Dec 2015 | |
+|Rec Hist|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 / Jan 2016 | 1,000 | 
+|All|[Digital Assets Platform v2](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  | | | 
+|All|Digital Asset Store|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|All|[Reduce 50% Compilation Time] (https://github.com/FERMAT-ORG/software-bounty-program/blob/master/bounties/Reduce_compilation_time.md)|  |February / Release| 2,000 | Fermat Tokens | Assigned |Manuel, Victor & Nerio|February 2016|2,000| 
+|All|[Android Components Tool Box](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned | | | | 
+|All|[Fermat Token Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
+| |[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto | | | | 
+|All|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Fermat Tokens Wallet| | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Fermats Tokens Exchange |  | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Loss Protected Wallet|  | | 15,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Discount Wallet|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Device Private Network| | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Crypto Distribution Network|  | | 75,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Digital Assets Combined|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Marketing Platform|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Niche Wallets APPs| | | 25,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Wallet Production Distribution| | | 30,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Branded Wallets APPs|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Multi-Sig Vault|  | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Digital Assets Secondary Market|  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Fermat Companies |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Distributed Reputation System |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Integrated Feedback |  |  | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Customer Support |  |  | 75,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Fermat APPs Licensing | | | 50,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Fermat Multi OS | | | 100,000 | Fermat Tokens | Not Assigned | | | | 
+|All|Fermat for iOS | |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
 
 
 
