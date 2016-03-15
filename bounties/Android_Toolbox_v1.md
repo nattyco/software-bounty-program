@@ -72,18 +72,15 @@ Se desarrollarán los siguientes componentes,views,widget,optimizadores,utilidad
 |CoinUnitsPicker |	selector de las diferentes unidades de una moneda, por ejemplo: bitcoin (mili,micro,satoshis,etc) |	furszy |	dialog,popup,fragmento |
 |CurrencySelectorDialog |	selector de monedas fiat/crypto  |	Luis |	dialog,popup,fragmento |
 |SettingsView |	diseño de vista para el settings de cualquier aplicacion fermat, se debe crear toda la infraestructura para construir esto de forma escalable y fácil de ampliar con diferentes componentes |	furszy	| Componente |
-|IdentitySelector|	Un view para seleccionar identidades (en las communities/wallets por ejemplo). Que se pueda trigger desde por ejemplo el header del navigationDrawer |	abicelis |	view?|
 |FermatAdapter 2.0 |	Mejorar el fermat adapter para que sea mas sencillo agregar tipos de row,por ejemplo footers , headers, etc. |	nelsonalfo |	Adapter|
 |fermatViewHolder 2.0 |	Mejorar el view holder con lo nuevo del adapter para poder almacenar las vistas armadas|	furszy|	ViewHolder|
 |SendForm |	desarrollar un formulario de envió básico para todas las plataformas|	furszy|	view|
 |FermatLoadingView |	una view de loading con estilo de fermat |	furszy|	view|
 |FermatSearchView |	SearchView en el toolbar con collapse y expand	|furszy/no se quien la pidió |	view |
 |ImageSlider |	un slider con imágenes optimizado para android (Esto es por ejemplo se puede usar en un header con noticias o alguna información a presentar) |	furszy |	
-|Simplificación del NavigationStructureFactory |	Desarrollar una alternartiva a la implementación actual que obligue a "setear" todos los elementos obligatorios, establecer valores por default para evitar mal uso del mismo. |	Furszy/no tengo anotado quien lo sugirió |	improve|
 |basic menu in drawer with header picture V2 |	el navigation view, todo estandarizado |	furszy |	improve|
 |top toolbar expandible menu |	menú expanpandible desde el toolbar |	furszy |	view |
 |animación entre pantallas |	La posibilidad de agregar un efecto al pasar de pantalla en pantalla en una FermatApp |	nelson |	animation|
-|QR scanner V2 |	El scanner de qr hacerlo más simple para su uso en cualquier aplicación | 	furszy |	new functionality |
 |Grafico de barras para el header (como el de CBP) |	Hacer el gráfico de barras de cbp para todo fermat |	nelson |	Componente|
 |Grafico lineal para el header (como el de CBP) |	Hacer el gráfico lineal de cbp para todo fermat |	nelson |	Componente|
 |SimpleSpinnerView with material design |	Un spinner para crear facilmente con material design	| furszy |	Componente|
@@ -95,6 +92,22 @@ Se desarrollarán los siguientes componentes,views,widget,optimizadores,utilidad
 |FermatProgressBar |	una barra de progreso que se pueda actualizar facilmente desde las notificaciones |	acostarodrigo | view |
 |WalletSelectorDialog |	un selector de wallets dentro de fermat, con el cual se va a poder realizar alguna acción al clickearla |	furszy | view|
 |Mnemonic dialog/screen |una pantalla/vista la cual sirva para exportar la clave mnemonic de la wallet |	acostarodrigo | view|
+|Tabs v2 |Mejorar los tabs actuales para que soporten el agregado de customView (por ejemplo notificaciones)|  nelson | improvement|
+|UnitConversor |Conversor de unidades para la api de android, dp-sp-px|  furszy | Utility|
+|Multi selector Spinner | Un Spinner con la posibilidad de selección doble como el selector de un bingo|  acostarodrigo | View|
+|AvtivityBackButtonNotification | Mejora del framework para que avise a los fragmentos a la hora de realizar un back button o entrar en reposo en celular|  furszy | FermatAndroidFramework|
+|ShareCompatFunctionality | Funcionalidad para poder compartir fotos,textos,videos,archivos con otras aplicaciones desde Fermat|  furszy | FermatAndroidFramework|
+|AbstractDesktopFragment | Un fragmento base y optimizado para la creación de desktop screens| furszy| android-api|
+|ShapesLibrary |libreria con varios tipos de figuras desarrolladas en codigo| furszy| library|
+|AbstractViewPager | ViewPager generico que facilita su utilización en android | furszy| android-api|
+|Apps Stack | vista de tipo stack con el diseño que posee android | furszy| library|
+|Android-core structure to support Apps stack | mejoras en el core de android para que pueda soportar el stack de aplicaciones desarrollado | furszy| android-core|
+|RecentsActivity | actividad que corre en paralelo a Fermat con el stack de aplicaciones abiertas, conectado a traves del router previamente creado en esta lista | furszy| android-core|
+|Broadcaster V2 | Mejora al broadcaster para que permita enviar objetos, los cuales pueden ser broadcasteados dentro o fuera de Fermat | furszy| Improve|
+|FermatProgressBar multi color cancelable | una progress bar la cual puede ser cancelada con varios colores | Luis| view|
+|CardGridLayout | Un fragmento armado para poder visualizar en tarjetas los rows indicados por el usuario (Ej: el de communities)|  furszy | fragment|
+|RouterLauncherReceiver| Se trata de un receiver que actua como router para lanzar los diferentes tipos de pantalla que se encuentran en Fermat |  furszy | FermatAndroidFramework|
+|Apps connection V1 | Se trata de armar las bases para que Fermat pueda ser proveedora de servicios a otras aplicaciones en su versión 1 (Para que esto se pueda implementar en necesario hacer cambios en el core de Fermat)  |  furszy | FermatAndroidFramework|
 
 
 ---
