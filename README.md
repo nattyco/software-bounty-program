@@ -47,13 +47,13 @@ Below you can see a table with all current bounties available and their status.
 |All|[Digital Assets Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital-Asset-Platform.md)| | Jan / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder | Aug 2015 / Jan 2016 | 10,000 | 
 |All|Fermat ORG P2P| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
 |All|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan / Release | 10,000 | Fermat Tokens | Assigned | Ricardo Emmanuel | Dec 2015 | |
-|Rec Hist|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 / Jan 2016 | 1,000 | 
+|All|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 / Jan 2016 | 1,000 | 
 |All|[Digital Assets Platform v2](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  | | | 
 |All|Digital Asset Store|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|[Reduce 50% Compilation Time] (https://github.com/FERMAT-ORG/software-bounty-program/blob/master/bounties/Reduce_compilation_time.md)|  |February / Release| 2,000 | Fermat Tokens | Assigned |Manuel, Victor & Nerio|February 2016|2,000| 
 |All|[Android Components Tool Box](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned | | | | 
 |All|[Fermat Token Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
-| |[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto | | | | 
+|All|[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto | | | | 
 |All|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
@@ -83,6 +83,8 @@ Below you can see a table with all current bounties available and their status.
 Please Note: Target month and bounty offer may change while their status is _Not Assigned_
 
 ## Reference 
+
+**Type** : Means the type of project. The possible projects are: GUI Design (GUI), Analisys (A), Implementation (CODE), All of the previous one (All).
 
 **D** : Means _Depends on_. The project listed dependes on other project to be completed in order to be started. 
 
