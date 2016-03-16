@@ -54,7 +54,7 @@ Below you can see a table with all current bounties available and their status.
 |All|[Reduce 50% Compilation Time] (https://github.com/FERMAT-ORG/software-bounty-program/blob/master/bounties/Reduce_compilation_time.md)|  |February / Release| 2,000 | Fermat Tokens | Assigned |Manuel, Victor & Nerio|February 2016|2,000| 
 |All|[Android Components Tool Box](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned | | | | 
 |All|[Fermat Token Platform](https://github.com/FERMAT-ORG/bounty-program/blob/master/bounties/Fermat-Token-Platform.md)|  | | 25,000 | Fermat Tokens | Assigned | Thunder | | | 
-|All|[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto | | | | 
+|All|[Cloud Server Monitor](https://github.com/Rart3001/bounty-program/blob/master/bounties/P2P_Cloud_Server_v1.md)|  | March 15th | 2,500 | Fermat Tokens | Roberto | | | 2,500 | 
 |All|Fermat Blockchain Identities|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat P2P Network| | | 150,000 | Fermat Tokens | Not Assigned | | | | 
 |All|Fermat Blockchain| |  | 100,000 | Fermat Tokens | Not Assigned | | | | 
