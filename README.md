@@ -46,7 +46,7 @@ Below you can see a table with all current bounties available and their status.
 |5|Fermat ORG P2P| | Jan / Alpha | 15,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | | 
 |6|[Fermat ORG Editable](bounties/Fermat.org V3.md)| | Jan / Release | 10,000 | Fermat Tokens | Assigned | Miguel Luis | Dec 2015 | |
 |7|[Recover Fermat Repo History](https://github.com/Fermat-ORG/bounty-program/blob/master/bounties/Recover-FermatRepoHistory.md)|  | Jan | 1,000 | Fermat Tokens | Assigned | Manuel | Jan 2016 / Jan 2016 | 1,000 | 
-|8|[Digital Assets Platform v2](https://github.com/bitDubai/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  | | | 
+|8|[Digital Assets Platform v2](https://github.com/bitDubai/bounty-program/blob/master/bounties/Digital%20Assets%20Platform%20v2.md)| | March / Alpha | 10,000 | Fermat Tokens | Assigned | Thunder  |Feb 2016 / Mar 2016 |10000 | 
 |9|Digital Asset Store|  | | 25,000 | Fermat Tokens | Not Assigned | | | | 
 |10|Reduce 50% Compilation Time|  | | 2,000 | Fermat Tokens | Not Assigned | | | | 
 |11|[Android Components Tool Box](https://github.com/bitDubai/bounty-program/blob/master/bounties/Android_Toolbox_v1.md)|  | March 15th | 10,000 | Fermat Tokens | Not Assigned | | | | 

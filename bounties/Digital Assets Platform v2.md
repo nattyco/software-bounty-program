@@ -4,7 +4,7 @@
 
 ## Introduction
 
-After [previous bounty] (link a previous bounty) was completed, new needs have raised the priority to introduce changes and improvements to DAP platform. This document describes the scope, design and timeline of the new bounty.
+After [previous bounty] (https://github.com/Fermat-ORG/software-bounty-program/blob/master/bounties/Digital-Asset-Platform.md) was completed, new needs have raised the priority to introduce changes and improvements to DAP platform. This document describes the scope, design and timeline of the new bounty.
 
 ## Scope
 
@@ -93,9 +93,22 @@ To be considered success this bounty must pass the following tests:
 * Exchange an asset between users in any network.
 * The combination of any possible allowed behaviour by the applications without generating errors that doesn't allow to continue the evaluation.
 
-*[Evaluation results to be completed after evaluation]*
+* The evaluation was conducted on a Demo day that can be reviewed on this [Hangout session](https://www.youtube.com/watch?v=nysLHEIv6U4)
+and it was decided to grant the bounty to participant teams, because everything that was agreeded on this document, was sucessfully delivered.
 
 ## Distribution
 
-*[Distribution to be completed after evaluation]*
+| Tema | Bounty amount | % |
+|:---:|:---|---:|
+|Skynet Team|4000|40%|
+|Yayo Team |3000|30%|
+|Thunder|3000|30%|
+
+For the distribution, *on agreement with the Team leads*, the distribution was based on:
+
+* Code difficulty
+* Level of engagement
+* Tasks independency
+* Management
+
 
