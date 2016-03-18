@@ -4,13 +4,12 @@
 The main objective of this bounty is to create a real P2P network between the Fermat Servers. In this first approach we'll create the first version of a Network Node.
 This Network Node will have all the features needed to the interaction of the peers.
 
-### Scope
-
 ### Glosary
 
 * Fermat Network: Fermat peer-to-peer network.
 * Network Node: Fermat Network decentralized server.
 * Network Client: Fermat Network decentralized Client.
+* Seed Server: Fermat First Network Node. Its the first reference for all the new nodes.
 * Network Relationship:
   * Node-Node
   * Node-Client
@@ -22,6 +21,7 @@ This Network Node will have all the features needed to the interaction of the pe
 * Network Client Channel: CCommunication Channel between Node and Client & Vice-versa.
 * Network Call Channel: Communication Channel between Client and Client.
 
+### Scope
 La **"Fermat Network"** sera la red *"peer-to-peer"* utiliza por el sistema Fermat, y estara compuesta por dos tipos de componentes, los nodos llamados **"Network Nodes"** y los clientes llamados  **"Network Clients"** los cuales interactuan entre si, estas interacciones podrán ser de la siguientes formas **"Node to Node"**, **"Node to Client"** y **"Client to Client"**. 
 
 Los **"Network Nodes"** serán los componentes responsables de mantener la intercomunicación entre la red *"peer-to-peer"*, estos fungirán como servidores descentralizados los cuales proporcionaran servicios especializados a cada uno de los clientes y también a otros nodos, también tiene la responsabilidad de presentar y dar a conocer a cada uno de estos clientes en la red.
@@ -94,13 +94,13 @@ Based on current workload and resouces available, the delivery date of this boun
 To be considered success this bounty must pass the following tests:
 ​
 ​
-* bla bla bla.
+* Succesfully connection of a Network Node to the Seed Server.
+* Proper updating of the Nodes Catalog when this happend.
+* Succesfully connection of another Network Node to the Seed Server.
+* Right propagation of the Nodes Catalog. (I think we've to set a number of Nodes here).
 ​
 *[Evaluation results to be completed after evaluation]*
 ​
 ## Limitations
 ​
-The following limitations when evaluating the platform should be considered:
-​
-​
-* ---.
+There's no limitations found yet.
