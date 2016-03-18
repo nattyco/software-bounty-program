@@ -32,8 +32,14 @@ También se contara con la implantación de un catalogo distribuido de actores *
 
 Se ha definido que cada  **"Network Node"** estará compuesto por dos canales principales de comunicación conocidos **"Network Node Channel"** y **"Network Client Channel"**, cada uno especializado para el intercambio de dato entre los componentes de la red dependiendo su tipo; es decir tendrán un canal de comunicación exclusiva para el envió de información entre  **"Network Node"** a **"Network Node"** , y otro canal utilizado para el envió de información entre **"Network Clients"** a **"Network Node"** y viceversa.
 
-Para cada uno de estos canales se han identificado los siguientes casos de usos y métodos, los cuales serán expuestos como servicios por cada uno de estos nodos:
+El cliente **"Network Client"** sera el que se ejecutara en cada uno de los dispositivos que fungirán como clientes de la red peer-to-peer, y son los responsables de proveer una interface o API de comunicación a los otros componentes del sistema tales como son los **"Network Services"** y **"Actores"**.
 
+Los clientes contaran también con dos canales de comunicación exclusivos llamados **"Network Client Channel"** y **"Network Call Channel"**, el primero para la intereacción con los nodos de la red, y otro que sera utilizando para envió de información y datos entre clientes de la red.
+
+
+Para cada uno de estos canales se han identificado los siguientes casos de usos y métodos, los cuales serán expuestos como servicios por cada uno de estos ellos:
+
+### Fermat Network Nodes:
 #### Network Node Channel:
 
 1. AddNodeToCatalog   (NodeProfile)
@@ -42,7 +48,6 @@ Para cada uno de estos canales se han identificado los siguientes casos de usos 
 4. GetCatalogTxs  (Records, Timestamp)
 5. ReceiveNodeCatalogTransactions (NodeCatalogTxs)
 6. ReceiveActorCatalogTransactions (ActorCatalogTxs)
-
 #### Network Client Channel:
 
 1. GetNearbyNodes (Location)
@@ -58,6 +63,17 @@ Para cada uno de estos canales se han identificado los siguientes casos de usos 
 11. NetworkServiceCall (FromNetworkService, ToNetworkService)   
 12. ActorCall (FromActor, ToActor, FromNetworkService)
 
+### Fermat Network Clients:
+#### Network Client Channel:
+
+1. GetNearbyNodes (Location)
+2. RegisterProfile (Profile, ParentProfile)  
+3. UnRegisterProfile (Profile)
+4. RegisteredProfileDiscoveryQuery  (DiscoveryQueryParams)
+5. ActorTraceDiscoveryQuery  (DiscoveryQueryParams)     
+6. ChangeProfileHome (Profile, HomeNodeProfile)
+7. NetworkServiceCall (FromNetworkService, ToNetworkService)   
+8. ActorCall (FromActor, ToActor, FromNetworkService)
 #### Network Call Channel:
 
 1. ConnetToVpnChannel()
