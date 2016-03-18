@@ -34,7 +34,7 @@ Se ha definido que cada  **"Network Node"** estará compuesto por dos canales pr
 
 Para cada uno de estos canales se han identificado los siguientes casos de usos y métodos, los cuales serán expuestos como servicios por cada uno de estos nodos:
 
-## Network Node Channel:
+#### Network Node Channel:
 
 1. AddNodeToCatalog   (NodeProfile)
 2. UpdateNodeInCatalog   (NodeProfile)
@@ -43,7 +43,7 @@ Para cada uno de estos canales se han identificado los siguientes casos de usos 
 5. ReceiveNodeCatalogTransactions (NodeCatalogTxs)
 6. ReceiveActorCatalogTransactions (ActorCatalogTxs)
 
-## Network Client Channel:
+#### Network Client Channel:
 
 1. GetNearbyNodes (Location)
 2. CheckIn(ClientProfile), 
@@ -58,18 +58,55 @@ Para cada uno de estos canales se han identificado los siguientes casos de usos 
 11. NetworkServiceCall (FromNetworkService, ToNetworkService)   
 12. ActorCall (FromActor, ToActor, FromNetworkService)
 
-## Agents
+#### Network Call Channel:
+
+1. ConnetToVpnChannel()
+2. SendMessage()
+
+### Tasks
 
 Having in count the responsibility that must be accomplished by the **"Network Nodes"** of distributing and mantain the actor and node catalogs we define a serie of tasks, to be done by agent components:
 
-1. Propagate Node Catalog Agent
-2. Propagate Actor Catalog Agent
+1. Propagate Node Catalog Task
+2. Propagate Actor Catalog Task
 
-## Database:
+### Network Node Features
 
-### Network Node:
+#### Task: Propagate Node Catalog 
+Esto es un agente que se ejecuta cada 1 minuto en el Network Node. Al iniciar dicho agente el Network Node Verifica en la tabla de "NODES_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" si existen registros nuevos, en caso de que existan registros el Network Node busca en el catalogo de Network Nodes 10 Network Nodes que tengan menos notificaciones tardías de registros entonces obtiene un Network Node de la lista e intenta conectarse con el Network Node si la conexión es satisfactoria se envía el bloque de transacciones, recibe una respuesta de parte del otro Network Node Verifica si es una "Notificación de información tardia" entonces Aumenta el valor del campo "LATE_NOTIFICATION_COUNTER" para ese Network Node Actualiza el registro en la base de datos y cierra la conexión con dicho Network Node, aumenta el contador de propagaciones exitosas, en caso contrario de que no se logro conectarse obtiene otra vez un Network Node de la lista e intenta conectarse con el Network Node para enviarle el bloque de transacciones; luego de haber recorrido los 10 Network Nodes que tienen menos notificaciones tardías de registros el catalogo de Network Nodes valida si el contador de propagaciones exitosas es igual a 10 entonces borra las transacciones enviadas a los otros Network Nodes de la tabla "NODE_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" y se duerme el agente por el tiempo configurado, en caso de que el contador de propagaciones exitosas es diferente a 10 entonces busca en el catalogo de Network Nodes 10 que tengan menos notificaciones tardías de registros y repite toda la operación nuevamente.
+
+#### Task: Propagate Actor Catalog 
+This scheduled task es el encargado de realizar el proceso de propagación entre los nodos la información almacenada en el catalogo de actores, comienza verificando en la tabla de "ACTOR_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" si existen registros, cuando consigue estos registro el mismo agente va conectarse con otros "Network Nodes" y le transmitirá el conjunto de transacciones en un bloque. Cada vez que logre transmitir el bloque exitosamente a otro "Network Nodes" se ira descontando del contador de "Propagaciones exitosas", este al confirmar que el contador ha alcanzado el numero de cero (0) procederá a borrar todos los registros que se encontraban almacenados en la tabla "ACTOR_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION".
+
+#### Database:
 
 ![network node data base](https://cloud.githubusercontent.com/assets/12099493/11034740/0d57f5ea-86c0-11e5-9bcb-b47911df4e26.png)
+
+### Network Node Channel Features
+
+#### Process: Receive Actor Catalog Transactions
+
+Este proceso inicia cuando el Network Node recibe nuevo bloque de transacciones de parte de otro Network Node, luego resta uno al contardor de propagaciones pendientes, Obtiene una transacción del bloque y verifica si existe el registro en la tabla "ACTOR_CATALOG" si es así entonces toma otro bloque transacción y repite operación, en caso de que no exista ese registro en la tabla "ACTOR_CATALOG" entonces aplica la transaccion en la tabla "ACTOR_CATALOG" guarda las transacciones en la tabla "ACTORS_CATALOG_TRANSACTIONS" y verifica si la propagación ha alcanzado el número máximo de nodos si el Contador de propagaciones pendientes es diferente a 0 entonces guarda las transacciones en la tabla "PENDING_CATALOG_TRANSACTIONS_FOR_PROPAGATION"
+
+#### Process: Get Catalog
+Este proceso inicia cuando el "Network Node" recibe una nueva solicitud de catalogo de "Network Node", entonces Busca y filtra por el numero de registros solicitados en la tabla "NODES_CATALOG" y por ultimo Retorna dicho catalogo al solicitante otro "Network Node".
+
+#### Process: Get Catalog Transactions
+Este proceso inicia cuando el "Network Node" Recibe una nueva solicitud de transacciones catalogo de "Network Node", entonces busca y filtra por el numero de registros solicitados en la tabla "CATALOG_TRANSACTIONS" y por ultimo retorna dicho catalogo al solicitante otro "Network Node".
+
+#### Process: Receive Node Catalog Transactions
+En este proceso un "Network Node" recibe un nuevo bloque de transacciones, luego va Tomando una transacción del bloque para procesarla, por cada transacción recibida verifica si existe en la tabla "NODE_CATALOG", si existe registro entonces Aumenta el contador de notificación de aviso tardío en el caso de que no exista el registro entonces aplica la transacción en la tabla "NODE_CATALOG", Guarda las transacciones en la tabla "CATALOG_TRANSACTIONS" y por ultimo guarda las transacciones en la tabla "NODES_CATALOG_TRANSACTIONS_PENDING_FOR_PROPAGATION" y responde al "Network Node" que envió el bloque el número de registros ya conocidos.
+
+#### Process: Client To Node Connection
+Este proceso inicia cuando el Network Node recibe la nueva solicitud de conexión de parte de un Network Client si la conexión es satisfactoria entonces inserta en la base de datos "CLIENT_CONNECTION_HISTORY" un nuevo registro con el perfil del Network Node con estatus "SUCCESS" y realizan el Intercambio de claves publicas, si la conexión no es satisfactoria entonces inserta en la base de datos "CLIENT_CONNECTION_HISTORY" un nuevo registro con el perfil del Network Node con estatus "FAIL" y envía notificación de conexión fallida.
+
+#### Process: Get Nearby Nodes
+Este proceso inicia cuando el Network Node Recibe la nueva solicitud de lista de Network Nodes cercanos, entonces calcula la distancia de los Network Nodes registrados en la tabla "NODE_CATALOG" con relación a la geolocalización del Network Client ordena el resultado de los cálculos de menor a mayor, extrae los 50 primeros nodos mas cercanos y retorna la lista al Network Client.
+
+### Network Client Features
+
+#### Database: 
+![client node data base](https://cloud.githubusercontent.com/assets/12099493/11034748/1972311a-86c0-11e5-9e4a-b698b36a0c5a.png)
 
 ## Other resources:
 
