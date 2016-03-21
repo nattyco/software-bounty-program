@@ -128,8 +128,33 @@ To be considered success this bounty must pass the following tests:
 * La evaluación que se realizará será en base a lo aportado, sean diseñadores gráficos o desarrolladores. Se realizará un calculo matematico para determinar cuanto a sido el aporte de la persona para completar el bounty en base a la cantidad de componentes realizados con exito.
 * El dueño de la idea , como ya lo fuí explicando a cada uno que quiso aportar, tendrá la prioridad del desarrollo del componente ante el responsable de llevar a cabo este bounty , si el dueño de la idea se encuentra ocupado a la hora de su creación y hay otra persona libre, el organizador del bounty puede determinar la importancia del componente y si es necesario, entregarselo a la segunda persona para su desarrollo, ganando así los tokens del mismo.
 
-*[Evaluation results to be completed after evaluation]*
 
 ## Distribution
 
-*[Distribution to be completed after evaluation]*
+
+---
+
+### Graphic Design
+
+| Github Username | # Elements | U$S |
+|:----:|:----:|:----:|
+|arnaldos|5|**$1219,51**
+|m471c4|3|**$731,70**
+|emmysm|1|**$243,90**
+|Ivonne|1|**$243,90**
+
+---
+
+### CoinDiggers
+
+| Github Username  | # Elements | U$S |
+|:----:|:----:|:----:|
+|Exilum|3|**$553,24**
+|nattyco|1|**$184,41**
+|Clelia|9|**$1659,73**
+|furszy|28|**$5163,59**
+
+---
+
+
+
