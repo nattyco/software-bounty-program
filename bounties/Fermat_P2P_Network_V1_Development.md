@@ -1,7 +1,7 @@
 # Fermat P2P Network V1 Development Bounty
 
 ### Introduction
-The main objective of this bounty is to create a real P2P network between the Fermat Servers. In this first approach we'll create the first version of a Network Node.
+The main objective of this bounty is to create a decentralized P2P network between the Fermat Servers. In this first approach we'll create the first version of a Network Node and the second version of the Network Client.
 This Network Node will have all the features needed to the interaction of the peers.
 
 ### Glosary
@@ -18,7 +18,7 @@ This Network Node will have all the features needed to the interaction of the pe
 * Node Profile: Profile of each node, it'll contains the necessary information to communicate with it: ip, port, name, etc.
 * Actor Catalog: Distributed catalog of Actors. Is used for the discovering and searching of  Actors). It will be managed by Nodes.
 * Network Node Channel: Communication Channel between Node and Node.
-* Network Client Channel: CCommunication Channel between Node and Client & Vice-versa.
+* Network Client Channel: Communication Channel between Node and Client & Vice-versa.
 * Network Call Channel: Communication Channel between Client and Client.
 
 ### Scope
@@ -139,21 +139,31 @@ https://plus.google.com/events/cqi7tt576hmg2clindlduqhjfjc
 https://plus.google.com/events/cdmbbvvvah3gf6vqveaf67g8hs0
 
 ## Timeline
-​
+
 Based on current workload and resouces available, the delivery date of this bounty will be **To define**.
-​
+
 ## Evaluation
-​
+
 To be considered success this bounty must pass the following tests:
-​
-​
-* Succesfully connection of a Network Node to the Seed Server.
-* Proper updating of the Nodes Catalog when this happend.
-* Succesfully connection of another Network Node to the Seed Server.
-* Right propagation of the Nodes Catalog. (I think we've to set a number of Nodes here).
-​
+
+* Management and distribution of Node Catalog:
+  * Succesfully registration of Multiple Network Nodes to the Seed Server.
+  * Proper updating of the Nodes Catalog when this happened.
+  * Right propagation of the Nodes Catalog (7).
+* Succesfully registration of Actors.
+* Succesfully registration of Network Clients.
+* Succesfully registration of Network Services.
+* Management and distribution of Actors Catalog:
+  * Succesfully registration of Multiple Actors to the Seed Server.
+  * Proper updating of the Actors Catalog when this happened.
+  * Right propagation of the Actors Catalog (7).
+* Geo-location search (get nearby nodes).
+* Network Calls between clients.
+* Actor Calls between clients.
+* Test migration of one network service to the new scheme (selected: ccp-actor-network-service-intra-actor).
+  
 *[Evaluation results to be completed after evaluation]*
-​
+
 ## Limitations
-​
-There's no limitations found yet.
+* Calls analysis not completed.
+* Database and File System add-ons linux version creation in progress.
