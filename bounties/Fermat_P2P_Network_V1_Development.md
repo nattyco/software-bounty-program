@@ -167,3 +167,4 @@ To be considered success this bounty must pass the following tests:
 ## Limitations
 * Calls analysis not completed.
 * Database and File System add-ons linux version creation in progress.
+* Location Add-on linux version not created.
