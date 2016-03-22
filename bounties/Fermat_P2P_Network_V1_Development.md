@@ -1,23 +1,24 @@
 # Fermat P2P Network V1 Development Bounty
 
 ### Introduction
-The main objective of this bounty is to create a decentralized P2P network between the Fermat Servers. In this first approach we'll create the first version of a Network Node and the second version of the Network Client.
-This Network Node will have all the features needed to the interaction of the peers.
+The main objective of this bounty is to create a decentralized P2P network between the Fermat Nodes. In this first approach we'll create the first version of a Network Node and the first version of the Client Node. The current implementation called Cloud Client and Cloud Server are going to be used as a reference to extrack whatever is usefull, and that techology is going still be supported as an alternative communication method.
+
+The Network Node will have all the features needed to the interaction with its peers.
 
 ### Glosary
 
 * Fermat Network: Fermat peer-to-peer network.
 * Network Node: Fermat Network decentralized server.
 * Network Client: Fermat Network decentralized Client.
-* Seed Server: Fermat First Network Node. Its the first reference for all the new nodes.
-* Network Relationship:
+* Seed Server: Fermat First Network Node. Its the first reference for all the new nodes. There could be more that one seed server. Seed server's IP addess and port are known by clients at compile time.
+* Network Relationships:
   * Node-Node
-  * Node-Client
+  * Client-Node
   * Client-Client
-* Network Node Catalog: Distributed catalog of nodes. Is used for the discovering and searching of Nodes). It will be managed by Nodes.
+* Network Node Catalog: Distributed catalog of nodes. It is used for the discovering and searching of Nodes. It will be managed by Nodes.
 * Node Profile: Profile of each node, it'll contains the necessary information to communicate with it: ip, port, name, etc.
-* Actor Catalog: Distributed catalog of Actors. Is used for the discovering and searching of  Actors). It will be managed by Nodes.
-* Network Node Channel: Communication Channel between Node and Node.
+* Actor Catalog: Distributed catalog of Actors. Is used for the discovering and searching of  Actors. It will be managed by Nodes.
+* Network Node Channel: Communication Channel between Nodes.
 * Network Client Channel: Communication Channel between Node and Client & Vice-versa.
 * Network Call Channel: Communication Channel between Client and Client.
 
@@ -30,9 +31,9 @@ Uno de los problemas principales en las redes *"peer to peer"* es el descubrimie
 
 También se contara con la implantación de un catalogo distribuido de actores **"Actor Catalog"** en cual sera utilizado para el descubrimiento y busqueda de cada uno de ellos en la red "peer-to-peer", como en el caso del **"Network Node Catalog"**  la administración y mantenimiento de este catalogo sera exclusiva responsabilidad de los mismos nodos **"Network Node"**.
 
-Se ha definido que cada  **"Network Node"** estará compuesto por dos canales principales de comunicación conocidos **"Network Node Channel"** y **"Network Client Channel"**, cada uno especializado para el intercambio de dato entre los componentes de la red dependiendo su tipo; es decir tendrán un canal de comunicación exclusiva para el envió de información entre  **"Network Node"** a **"Network Node"** , y otro canal utilizado para el envió de información entre **"Network Clients"** a **"Network Node"** y viceversa.
+Se ha definido que cada  **"Network Node"** estará compuesto por dos canales principales de comunicación conocidos **"Network Node Channel"** y **"Network Client Channel"**, cada uno especializado para el intercambio de datso entre los componentes de la red dependiendo su tipo; es decir tendrán un canal de comunicación exclusiva para el envió de información entre  **"Network Node"** a **"Network Node"** , y otro canal utilizado para el envió de información entre **"Network Clients"** a **"Network Node"** y viceversa.
 
-El cliente **"Network Client"** sera el que se ejecutara en cada uno de los dispositivos que fungirán como clientes de la red peer-to-peer, y son los responsables de proveer una interface o API de comunicación a los otros componentes del sistema tales como son los **"Network Services"** y **"Actores"**.
+El cliente **"Network Client"** sera el que se ejecutara en cada uno de los dispositivos que fungirán como clientes de la red peer-to-peer, y son los responsables de proveer una interface o API de comunicación a los otros componentes del sistema tales como son los **"Network Services"** y **"Actores"**. 
 
 Los clientes contaran también con dos canales de comunicación exclusivos llamados **"Network Client Channel"** y **"Network Call Channel"**, el primero para la intereacción con los nodos de la red, y otro que sera utilizando para envió de información y datos entre clientes de la red.
 
@@ -140,7 +141,7 @@ https://plus.google.com/events/cdmbbvvvah3gf6vqveaf67g8hs0
 
 ## Timeline
 
-Based on current workload and resouces available, the delivery date of this bounty will be **To define**.
+Based on current workload and resouces available, the delivery date of this bounty will be **April 2016**.
 
 ## Evaluation
 
@@ -154,7 +155,7 @@ To be considered success this bounty must pass the following tests:
 * Succesfully registration of Network Clients.
 * Succesfully registration of Network Services.
 * Management and distribution of Actors Catalog:
-  * Succesfully registration of Multiple Actors to the Seed Server.
+  * Succesfully registration of Multiple Actors to the Seed Server. LUIS:  ???? que seria esto ???
   * Proper updating of the Actors Catalog when this happened.
   * Right propagation of the Actors Catalog (7).
 * Geo-location search (get nearby nodes).
@@ -168,3 +169,8 @@ To be considered success this bounty must pass the following tests:
 * Calls analysis not completed.
 * Database and File System add-ons linux version creation in progress.
 * Location Add-on linux version not created.
+* 
+
+
+LUIS: No veo el tema del HOME Node de los clientes, desde su eleccion, su aceptacion por parte de un nodo, la mudanza de un home node a otro, etc. Fijense si ademas de eso no le falta mas nada a este doc.
+
